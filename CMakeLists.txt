@@ -17,4 +17,4 @@ set(SOURCE_FILES src/main.cpp)
 add_executable(odyssey ${SOURCE_FILES})
 
 target_include_directories(odyssey PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
-target_include_directories(odyssey PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/libchess/libchess.a)
+target_include_directories(odyssey PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/libchess)
