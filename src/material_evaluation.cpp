@@ -25,14 +25,41 @@ int Position::material_evaluation() {
         score_opening += piece_bitboard.count() * material_score[opening][current_piece];
         score_endgame += piece_bitboard.count() * material_score[endgame][current_piece];
 
-        // taking the placement of the piueces into account
-        switch (current_piece) {
-            case Pawn:
-                while (piece_bitboard) {
-                    Square square = piece_bitboard.lsb();
-                    piece_bitboard ^= square;
-                    
-                }
+        while (piece_bitboard) {
+            Square square = piece_bitboard.lsb();
+            piece_bitboard ^= square;
+            
+            // taking the placement of the pieces into account
+            score_opening += positional_score[opening][current_piece][(int) square];
+            score_endgame += positional_score[endgame][current_piece][(int) square];
+
+            // special rewards/penalties based on the pieces
+            switch (current_piece) {
+                case Pawn:
+                    // punish double pawns
+                    int double_pawns = ;
+                    break; 
+
+                case Knight:
+                    ;
+                    break;
+
+                case Bishop:
+                    ;
+                    break;
+                
+                case Rook:
+                    ;
+                    break;
+
+                case Queen:
+                    ;
+                    break;
+
+                case King:
+                    ;
+                    break;
+            }
         }
 
     }
