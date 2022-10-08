@@ -140,4 +140,6 @@ const int material_score[2][12] =
     94, 281, 297, 512,  936, 12000, -94, -281, -297, -512,  -936, -12000
 };
 
+enum {opening, endgame, middlegame};
+
 #endif
