@@ -37,7 +37,7 @@ int Position::material_evaluation() {
             switch (current_piece) {
                 case Pawn:
                     // punish double pawns
-                    int double_pawns = ;
+                    // int double_pawns = ;
                     break; 
 
                 case Knight:

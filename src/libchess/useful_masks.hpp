@@ -14,4 +14,6 @@ libchess::Bitboard white_passed_masks[64];
 // black passed pawn masks
 libchess::Bitboard black_passed_masks[64];
 
+void init_masks();
+
 #endif

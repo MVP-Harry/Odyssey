@@ -29,6 +29,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/harry/CS/Odyssey/src/set_fen.cpp" "CMakeFiles/odyssey.dir/src/set_fen.cpp.o" "gcc" "CMakeFiles/odyssey.dir/src/set_fen.cpp.o.d"
   "/home/harry/CS/Odyssey/src/square_attacked.cpp" "CMakeFiles/odyssey.dir/src/square_attacked.cpp.o" "gcc" "CMakeFiles/odyssey.dir/src/square_attacked.cpp.o.d"
   "/home/harry/CS/Odyssey/src/undomove.cpp" "CMakeFiles/odyssey.dir/src/undomove.cpp.o" "gcc" "CMakeFiles/odyssey.dir/src/undomove.cpp.o.d"
+  "/home/harry/CS/Odyssey/src/useful_masks.cpp" "CMakeFiles/odyssey.dir/src/useful_masks.cpp.o" "gcc" "CMakeFiles/odyssey.dir/src/useful_masks.cpp.o.d"
   "/home/harry/CS/Odyssey/src/valid.cpp" "CMakeFiles/odyssey.dir/src/valid.cpp.o" "gcc" "CMakeFiles/odyssey.dir/src/valid.cpp.o.d"
   "/home/harry/CS/Odyssey/src/zobrist.cpp" "CMakeFiles/odyssey.dir/src/zobrist.cpp.o" "gcc" "CMakeFiles/odyssey.dir/src/zobrist.cpp.o.d"
   )

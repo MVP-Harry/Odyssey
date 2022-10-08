@@ -633,6 +633,30 @@ src/undomove.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/odyssey.dir/build.make CMakeFiles/odyssey.dir/src/undomove.cpp.s
 .PHONY : src/undomove.cpp.s
 
+src/useful_masks.o: src/useful_masks.cpp.o
+.PHONY : src/useful_masks.o
+
+# target to build an object file
+src/useful_masks.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odyssey.dir/build.make CMakeFiles/odyssey.dir/src/useful_masks.cpp.o
+.PHONY : src/useful_masks.cpp.o
+
+src/useful_masks.i: src/useful_masks.cpp.i
+.PHONY : src/useful_masks.i
+
+# target to preprocess a source file
+src/useful_masks.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odyssey.dir/build.make CMakeFiles/odyssey.dir/src/useful_masks.cpp.i
+.PHONY : src/useful_masks.cpp.i
+
+src/useful_masks.s: src/useful_masks.cpp.s
+.PHONY : src/useful_masks.s
+
+# target to generate assembly for a file
+src/useful_masks.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odyssey.dir/build.make CMakeFiles/odyssey.dir/src/useful_masks.cpp.s
+.PHONY : src/useful_masks.cpp.s
+
 src/valid.o: src/valid.cpp.o
 .PHONY : src/valid.o
 
@@ -753,6 +777,9 @@ help:
 	@echo "... src/undomove.o"
 	@echo "... src/undomove.i"
 	@echo "... src/undomove.s"
+	@echo "... src/useful_masks.o"
+	@echo "... src/useful_masks.i"
+	@echo "... src/useful_masks.s"
 	@echo "... src/valid.o"
 	@echo "... src/valid.i"
 	@echo "... src/valid.s"

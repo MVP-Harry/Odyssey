@@ -37,6 +37,7 @@ set(SOURCE_FILES
     src/set_fen.cpp
     src/square_attacked.cpp
     src/undomove.cpp
+    src/useful_masks.cpp
     src/valid.cpp
     src/zobrist.cpp
 )
