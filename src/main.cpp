@@ -32,8 +32,6 @@ int main(int argc, char **argv) {
         fen = "startpos";
     }
 
-    // DONE: fix the build issue where I can't initialize a position using a fen
-    // libchess::Position pos = libchess::Position("startpos");
     auto pos = libchess::Position(fen);
 
     std::cout << pos << std::endl;
