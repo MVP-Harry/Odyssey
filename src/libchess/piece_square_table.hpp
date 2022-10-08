@@ -3,7 +3,7 @@
 
 // positional_score[game_phase][piece][square]
 // See https://www.chessprogramming.org/PeSTO%27s_Evaluation_Function for more information
-const int positional_score[2][6][64] =
+extern const int positional_score[2][6][64] =
 {
     // opening phase
     //pawn
@@ -131,7 +131,7 @@ const int positional_score[2][6][64] =
 };
 
 // material score [game phase][piece]
-const int material_score[2][12] =
+extern const int material_score[2][12] =
 {
     // opening material score
     82, 337, 365, 477, 1025, 12000, -82, -337, -365, -477, -1025, -12000,

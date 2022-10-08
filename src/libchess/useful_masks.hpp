@@ -2,17 +2,18 @@
 #define USEFUL_MASKS
 
 #include <libchess/bitboard.hpp>
+using namespace libchess;
 
 // file masks
-libchess::Bitboard file_masks[64];
+extern Bitboard file_masks[64];
 // rank masks
-libchess::Bitboard rank_masks[64];
+extern Bitboard rank_masks[64];
 // isolated pawn masks
-libchess::Bitboard isolated_masks[64];
+extern Bitboard isolated_masks[64];
 // white passed pawn masks
-libchess::Bitboard white_passed_masks[64];
+extern Bitboard white_passed_masks[64];
 // black passed pawn masks
-libchess::Bitboard black_passed_masks[64];
+extern Bitboard black_passed_masks[64];
 
 void init_masks();
 

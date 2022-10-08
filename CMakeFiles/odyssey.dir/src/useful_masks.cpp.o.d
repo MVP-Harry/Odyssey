@@ -140,4 +140,6 @@ CMakeFiles/odyssey.dir/src/useful_masks.cpp.o: \
  /usr/include/c++/12.2.0/bits/locale_facets.tcc \
  /usr/include/c++/12.2.0/bits/basic_ios.tcc \
  /usr/include/c++/12.2.0/bits/ostream.tcc \
- /home/harry/CS/Odyssey/./src/libchess/square.hpp
+ /home/harry/CS/Odyssey/./src/libchess/square.hpp \
+ /usr/include/c++/12.2.0/iostream /usr/include/c++/12.2.0/istream \
+ /usr/include/c++/12.2.0/bits/istream.tcc

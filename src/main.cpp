@@ -5,16 +5,30 @@
 
 #include <chrono>
 #include <iostream>
+#include <libchess/useful_masks.hpp>
 #include <libchess/position.hpp>
+using namespace libchess;
 
 int main(int argc, char **argv) {
     
+    /*
+    Intializing useful masks
+    */ 
+
+    init_masks();
+    for (int i = 0; i < 64; i++) {
+        std::cout << file_masks[i] << std::endl;
+    }
+
+    /*
+    argc is the number of arguments that the main function takes
+    argc is automatically counted
+    argv is a string array that contains all the command-line arguments
+    */
+
+    /* Initializing a position 
     int depth = 6;
     std::string fen;
-
-    // argc is the number of arguments that the main function takes
-    // argc is automatically counted
-    // argv is a string array that contains all the command-line arguments
 
     if (argc > 1) {
         depth = std::stoi(std::string(argv[1]));
@@ -37,6 +51,7 @@ int main(int argc, char **argv) {
 
     std::cout << pos << std::endl;
     std::cout << std::endl;
+    */
 
     // perft of current position
     // for (int i = 0; i <= depth; ++i) {
@@ -55,5 +70,5 @@ int main(int argc, char **argv) {
     //     std::cout << std::endl;
     // }
 
-    // return 0;
+    return 0;
 }
