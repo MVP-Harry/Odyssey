@@ -11,6 +11,10 @@ int Position::material_evaluation() {
     // insufficient material in endgame
     int score = 0;
 
+    for (int piece = Pawn; piece <= King; piece++) {
+        
+    }
+
     return score;
 }
 
