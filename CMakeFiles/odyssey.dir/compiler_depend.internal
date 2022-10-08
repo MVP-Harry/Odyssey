@@ -2911,6 +2911,7 @@ CMakeFiles/odyssey.dir/src/material_evaluation.cpp.o
  /home/harry/CS/Odyssey/src/libchess/piece.hpp
  /home/harry/CS/Odyssey/src/libchess/side.hpp
  /home/harry/CS/Odyssey/src/libchess/zobrist.hpp
+ /home/harry/CS/Odyssey/src/libchess/piece_square_table.hpp
 
 CMakeFiles/odyssey.dir/src/movegen.cpp.o
  /home/harry/CS/Odyssey/src/movegen.cpp

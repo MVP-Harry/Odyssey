@@ -1,4 +1,5 @@
 #include <libchess/position.hpp>
+#include <libchess/piece_square_table.hpp>
 
 namespace libchess {
 
@@ -11,8 +12,9 @@ int Position::material_evaluation() {
     // insufficient material in endgame
     int score = 0;
 
-    for (int piece = Pawn; piece <= King; piece++) {
-        
+    for (int current_piece = Pawn; current_piece <= King; current_piece++) {
+        libchess::Bitboard piece_bitboard = pieces(turn(), Piece(current_piece));
+
     }
 
     return score;
