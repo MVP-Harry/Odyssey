@@ -130,4 +130,14 @@ const int positional_score[2][6][64] =
     -53, -34, -21, -11, -28, -14, -24, -43
 };
 
+// material score [game phase][piece]
+const int material_score[2][12] =
+{
+    // opening material score
+    82, 337, 365, 477, 1025, 12000, -82, -337, -365, -477, -1025, -12000,
+    
+    // endgame material score
+    94, 281, 297, 512,  936, 12000, -94, -281, -297, -512,  -936, -12000
+};
+
 #endif

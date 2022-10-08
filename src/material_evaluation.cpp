@@ -15,6 +15,12 @@ int Position::material_evaluation() {
     for (int current_piece = Pawn; current_piece <= King; current_piece++) {
         libchess::Bitboard piece_bitboard = pieces(turn(), Piece(current_piece));
 
+        while (piece_bitboard) {
+            // finding 
+            Square square = piece_bitboard.lsb();
+            piece_bitboard ^= square;
+        }
+
     }
 
     return score;
