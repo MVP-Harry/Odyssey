@@ -157,3 +157,16 @@ const int semi_open_file_score = 10;
 
 // open file score
 const int open_file_score = 15;
+
+// mobility units
+const int bishop_unit = 4;
+const int queen_unit = 9;
+
+// mobility bonuses
+const int bishop_mobility_opening = 5;
+const int bishop_mobility_endgame = 5;
+const int queen_mobility_opening = 1;
+const int queen_mobility_endgame = 2;
+
+// king's shield bonus
+const int king_shield_bonus = 5;

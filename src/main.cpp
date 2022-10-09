@@ -7,6 +7,7 @@
 #include <iostream>
 #include <libchess/useful_masks.hpp>
 #include <libchess/position.hpp>
+#include <libchess/movegen.hpp>
 using namespace libchess;
 
 int main(int argc, char **argv) {

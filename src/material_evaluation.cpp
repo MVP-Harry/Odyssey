@@ -1,6 +1,7 @@
 #include <libchess/position.hpp>
 #include <libchess/piece_square_table.hpp>
 #include <libchess/useful_masks.hpp>
+#include <libchess/movegen.hpp>
 
 namespace libchess {
 
@@ -63,14 +64,29 @@ int Position::material_evaluation() {
                 // no additional bonus/penalties for knights
 
                 case Bishop:
-                    ;
+                    // consider the mobilitiy of the bishop
+                    int bishop_moves = movegen::bishop_moves(square, occupied()).count();
+                    score_opening += (bishop_moves - bishop_unit) * bishop_mobility_opening;
+                    score_endgame += (bishop_moves - bishop_unit) * bishop_mobility_endgame;
                     break;
                 
-                /*
                 case Rook:
-                    ;
+                    // bonus for semi-open file
+                    bool is_semi_open = ((occupancy(Pawn) & occupancy(White)) & file_masks[int_square]).empty();
+                    if (is_semi_open) {
+                        score_opening += semi_open_file_score;
+                        score_endgame += semi_open_file_score;
+                    }
+
+                    // bonus for open file
+                    bool is_open = (occupancy(Pawn) & file_masks[int_square]).empty();
+                    if (is_open) {
+                        score_opening += open_file_score;
+                        score_endgame += open_file_score;
+                    }
                     break;
 
+                /*
                 case Queen:
                     ;
                     break;

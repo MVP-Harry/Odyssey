@@ -25,6 +25,19 @@ extern const int semi_open_file_score;
 // open file score
 extern const int open_file_score;
 
+// mobility units
+extern const int bishop_unit;
+extern const int queen_unit;
+
+// mobility bonuses
+extern const int bishop_mobility_opening;
+extern const int bishop_mobility_endgame;
+extern const int queen_mobility_opening;
+extern const int queen_mobility_endgame;
+
+// king's shield bonus
+extern const int king_shield_bonus;
+
 enum {opening, endgame, middlegame};
 
 #endif

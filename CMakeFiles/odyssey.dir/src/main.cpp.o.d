@@ -160,4 +160,5 @@ CMakeFiles/odyssey.dir/src/main.cpp.o: \
  /home/harry/CS/Odyssey/./src/libchess/move.hpp \
  /home/harry/CS/Odyssey/./src/libchess/piece.hpp \
  /home/harry/CS/Odyssey/./src/libchess/side.hpp \
- /home/harry/CS/Odyssey/./src/libchess/zobrist.hpp
+ /home/harry/CS/Odyssey/./src/libchess/zobrist.hpp \
+ /home/harry/CS/Odyssey/./src/libchess/movegen.hpp
