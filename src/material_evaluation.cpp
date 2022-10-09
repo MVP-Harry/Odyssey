@@ -88,11 +88,31 @@ int Position::material_evaluation() {
 
                 
                 case Queen:
-                    ;
+                    // consider the mobility of the queen
+                    int queen_moves = movegen::queen_moves(square, occupied()).count();
+                    score_opening += (queen_moves - queen_unit) * queen_mobility_opening;
+                    score_endgame += (queen_moves - queen_unit) * queen_mobility_endgame;
                     break;
 
                 case King:
-                    ;
+                    // penalties for semi-open file
+                    bool is_semi_open = ((occupancy(Pawn) & occupancy(White)) & file_masks[int_square]).empty();
+                    if (is_semi_open) {
+                        score_opening -= semi_open_file_score;
+                        score_endgame -= semi_open_file_score;
+                    }
+
+                    // penalties for open file
+                    bool is_open = (occupancy(Pawn) & file_masks[int_square]).empty();
+                    if (is_open) {
+                        score_opening -= open_file_score;
+                        score_endgame -= open_file_score;
+                    }
+
+                    // bonus for king shield
+                    int king_shield = (movegen::king_moves(square) & occupancy(White)).count();
+                    score_opening += king_shield * king_shield_bonus;
+                    score_endgame += king_shield * king_shield_bonus;
                     break;
             }
         }
