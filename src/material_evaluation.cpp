@@ -1,5 +1,6 @@
 #include <libchess/position.hpp>
 #include <libchess/piece_square_table.hpp>
+#include <libchess/useful_masks.hpp>
 
 namespace libchess {
 
@@ -37,9 +38,14 @@ int Position::material_evaluation() {
             switch (current_piece) {
                 case Pawn:
                     // punish double pawns
-                    // int double_pawns = ;
+                    int double_pawns = (file_masks[(int) square] & pieces(White, Pawn)).count();
+                    if (double_pawns > 1) {
+                        score_opening += (double_pawns - 1) * double_pawn_penalty_opening;
+                        score_endgame += (double_pawns - 1) * double_pawn_penalty_endgame;
+                    }
                     break; 
 
+                /*
                 case Knight:
                     ;
                     break;
@@ -59,6 +65,7 @@ int Position::material_evaluation() {
                 case King:
                     ;
                     break;
+                */
             }
         }
 

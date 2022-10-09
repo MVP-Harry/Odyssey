@@ -32,6 +32,7 @@ set(SOURCE_FILES
     src/material_evaluation.cpp
     src/movegen.cpp
     src/perft.cpp
+    src/piece_square_table.cpp
     src/pinned.cpp
     src/predict_hash.cpp
     src/set_fen.cpp

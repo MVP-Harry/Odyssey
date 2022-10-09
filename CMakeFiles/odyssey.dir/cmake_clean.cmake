@@ -31,6 +31,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/odyssey.dir/src/movegen.cpp.o.d"
   "CMakeFiles/odyssey.dir/src/perft.cpp.o"
   "CMakeFiles/odyssey.dir/src/perft.cpp.o.d"
+  "CMakeFiles/odyssey.dir/src/piece_square_table.cpp.o"
+  "CMakeFiles/odyssey.dir/src/piece_square_table.cpp.o.d"
   "CMakeFiles/odyssey.dir/src/pinned.cpp.o"
   "CMakeFiles/odyssey.dir/src/pinned.cpp.o.d"
   "CMakeFiles/odyssey.dir/src/predict_hash.cpp.o"

@@ -151,4 +151,6 @@ CMakeFiles/odyssey.dir/src/material_evaluation.cpp.o: \
  /home/harry/CS/Odyssey/./src/libchess/piece.hpp \
  /home/harry/CS/Odyssey/./src/libchess/side.hpp \
  /home/harry/CS/Odyssey/./src/libchess/zobrist.hpp \
- /home/harry/CS/Odyssey/./src/libchess/piece_square_table.hpp
+ /home/harry/CS/Odyssey/./src/libchess/piece_square_table.hpp \
+ /home/harry/CS/Odyssey/./src/libchess/useful_masks.hpp \
+ /home/harry/CS/Odyssey/./src/libchess/bitboard.hpp

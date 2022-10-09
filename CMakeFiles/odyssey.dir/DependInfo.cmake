@@ -24,6 +24,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/harry/CS/Odyssey/src/material_evaluation.cpp" "CMakeFiles/odyssey.dir/src/material_evaluation.cpp.o" "gcc" "CMakeFiles/odyssey.dir/src/material_evaluation.cpp.o.d"
   "/home/harry/CS/Odyssey/src/movegen.cpp" "CMakeFiles/odyssey.dir/src/movegen.cpp.o" "gcc" "CMakeFiles/odyssey.dir/src/movegen.cpp.o.d"
   "/home/harry/CS/Odyssey/src/perft.cpp" "CMakeFiles/odyssey.dir/src/perft.cpp.o" "gcc" "CMakeFiles/odyssey.dir/src/perft.cpp.o.d"
+  "/home/harry/CS/Odyssey/src/piece_square_table.cpp" "CMakeFiles/odyssey.dir/src/piece_square_table.cpp.o" "gcc" "CMakeFiles/odyssey.dir/src/piece_square_table.cpp.o.d"
   "/home/harry/CS/Odyssey/src/pinned.cpp" "CMakeFiles/odyssey.dir/src/pinned.cpp.o" "gcc" "CMakeFiles/odyssey.dir/src/pinned.cpp.o.d"
   "/home/harry/CS/Odyssey/src/predict_hash.cpp" "CMakeFiles/odyssey.dir/src/predict_hash.cpp.o" "gcc" "CMakeFiles/odyssey.dir/src/predict_hash.cpp.o.d"
   "/home/harry/CS/Odyssey/src/set_fen.cpp" "CMakeFiles/odyssey.dir/src/set_fen.cpp.o" "gcc" "CMakeFiles/odyssey.dir/src/set_fen.cpp.o.d"

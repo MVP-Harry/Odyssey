@@ -293,10 +293,24 @@ CMakeFiles/odyssey.dir/src/perft.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/odyssey.dir/src/perft.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/harry/CS/Odyssey/src/perft.cpp -o CMakeFiles/odyssey.dir/src/perft.cpp.s
 
+CMakeFiles/odyssey.dir/src/piece_square_table.cpp.o: CMakeFiles/odyssey.dir/flags.make
+CMakeFiles/odyssey.dir/src/piece_square_table.cpp.o: src/piece_square_table.cpp
+CMakeFiles/odyssey.dir/src/piece_square_table.cpp.o: CMakeFiles/odyssey.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harry/CS/Odyssey/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/odyssey.dir/src/piece_square_table.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/odyssey.dir/src/piece_square_table.cpp.o -MF CMakeFiles/odyssey.dir/src/piece_square_table.cpp.o.d -o CMakeFiles/odyssey.dir/src/piece_square_table.cpp.o -c /home/harry/CS/Odyssey/src/piece_square_table.cpp
+
+CMakeFiles/odyssey.dir/src/piece_square_table.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/odyssey.dir/src/piece_square_table.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/harry/CS/Odyssey/src/piece_square_table.cpp > CMakeFiles/odyssey.dir/src/piece_square_table.cpp.i
+
+CMakeFiles/odyssey.dir/src/piece_square_table.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/odyssey.dir/src/piece_square_table.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/harry/CS/Odyssey/src/piece_square_table.cpp -o CMakeFiles/odyssey.dir/src/piece_square_table.cpp.s
+
 CMakeFiles/odyssey.dir/src/pinned.cpp.o: CMakeFiles/odyssey.dir/flags.make
 CMakeFiles/odyssey.dir/src/pinned.cpp.o: src/pinned.cpp
 CMakeFiles/odyssey.dir/src/pinned.cpp.o: CMakeFiles/odyssey.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harry/CS/Odyssey/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/odyssey.dir/src/pinned.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harry/CS/Odyssey/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/odyssey.dir/src/pinned.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/odyssey.dir/src/pinned.cpp.o -MF CMakeFiles/odyssey.dir/src/pinned.cpp.o.d -o CMakeFiles/odyssey.dir/src/pinned.cpp.o -c /home/harry/CS/Odyssey/src/pinned.cpp
 
 CMakeFiles/odyssey.dir/src/pinned.cpp.i: cmake_force
@@ -310,7 +324,7 @@ CMakeFiles/odyssey.dir/src/pinned.cpp.s: cmake_force
 CMakeFiles/odyssey.dir/src/predict_hash.cpp.o: CMakeFiles/odyssey.dir/flags.make
 CMakeFiles/odyssey.dir/src/predict_hash.cpp.o: src/predict_hash.cpp
 CMakeFiles/odyssey.dir/src/predict_hash.cpp.o: CMakeFiles/odyssey.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harry/CS/Odyssey/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/odyssey.dir/src/predict_hash.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harry/CS/Odyssey/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/odyssey.dir/src/predict_hash.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/odyssey.dir/src/predict_hash.cpp.o -MF CMakeFiles/odyssey.dir/src/predict_hash.cpp.o.d -o CMakeFiles/odyssey.dir/src/predict_hash.cpp.o -c /home/harry/CS/Odyssey/src/predict_hash.cpp
 
 CMakeFiles/odyssey.dir/src/predict_hash.cpp.i: cmake_force
@@ -324,7 +338,7 @@ CMakeFiles/odyssey.dir/src/predict_hash.cpp.s: cmake_force
 CMakeFiles/odyssey.dir/src/set_fen.cpp.o: CMakeFiles/odyssey.dir/flags.make
 CMakeFiles/odyssey.dir/src/set_fen.cpp.o: src/set_fen.cpp
 CMakeFiles/odyssey.dir/src/set_fen.cpp.o: CMakeFiles/odyssey.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harry/CS/Odyssey/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/odyssey.dir/src/set_fen.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harry/CS/Odyssey/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/odyssey.dir/src/set_fen.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/odyssey.dir/src/set_fen.cpp.o -MF CMakeFiles/odyssey.dir/src/set_fen.cpp.o.d -o CMakeFiles/odyssey.dir/src/set_fen.cpp.o -c /home/harry/CS/Odyssey/src/set_fen.cpp
 
 CMakeFiles/odyssey.dir/src/set_fen.cpp.i: cmake_force
@@ -338,7 +352,7 @@ CMakeFiles/odyssey.dir/src/set_fen.cpp.s: cmake_force
 CMakeFiles/odyssey.dir/src/square_attacked.cpp.o: CMakeFiles/odyssey.dir/flags.make
 CMakeFiles/odyssey.dir/src/square_attacked.cpp.o: src/square_attacked.cpp
 CMakeFiles/odyssey.dir/src/square_attacked.cpp.o: CMakeFiles/odyssey.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harry/CS/Odyssey/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/odyssey.dir/src/square_attacked.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harry/CS/Odyssey/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/odyssey.dir/src/square_attacked.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/odyssey.dir/src/square_attacked.cpp.o -MF CMakeFiles/odyssey.dir/src/square_attacked.cpp.o.d -o CMakeFiles/odyssey.dir/src/square_attacked.cpp.o -c /home/harry/CS/Odyssey/src/square_attacked.cpp
 
 CMakeFiles/odyssey.dir/src/square_attacked.cpp.i: cmake_force
@@ -352,7 +366,7 @@ CMakeFiles/odyssey.dir/src/square_attacked.cpp.s: cmake_force
 CMakeFiles/odyssey.dir/src/undomove.cpp.o: CMakeFiles/odyssey.dir/flags.make
 CMakeFiles/odyssey.dir/src/undomove.cpp.o: src/undomove.cpp
 CMakeFiles/odyssey.dir/src/undomove.cpp.o: CMakeFiles/odyssey.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harry/CS/Odyssey/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/odyssey.dir/src/undomove.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harry/CS/Odyssey/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/odyssey.dir/src/undomove.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/odyssey.dir/src/undomove.cpp.o -MF CMakeFiles/odyssey.dir/src/undomove.cpp.o.d -o CMakeFiles/odyssey.dir/src/undomove.cpp.o -c /home/harry/CS/Odyssey/src/undomove.cpp
 
 CMakeFiles/odyssey.dir/src/undomove.cpp.i: cmake_force
@@ -366,7 +380,7 @@ CMakeFiles/odyssey.dir/src/undomove.cpp.s: cmake_force
 CMakeFiles/odyssey.dir/src/useful_masks.cpp.o: CMakeFiles/odyssey.dir/flags.make
 CMakeFiles/odyssey.dir/src/useful_masks.cpp.o: src/useful_masks.cpp
 CMakeFiles/odyssey.dir/src/useful_masks.cpp.o: CMakeFiles/odyssey.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harry/CS/Odyssey/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/odyssey.dir/src/useful_masks.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harry/CS/Odyssey/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/odyssey.dir/src/useful_masks.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/odyssey.dir/src/useful_masks.cpp.o -MF CMakeFiles/odyssey.dir/src/useful_masks.cpp.o.d -o CMakeFiles/odyssey.dir/src/useful_masks.cpp.o -c /home/harry/CS/Odyssey/src/useful_masks.cpp
 
 CMakeFiles/odyssey.dir/src/useful_masks.cpp.i: cmake_force
@@ -380,7 +394,7 @@ CMakeFiles/odyssey.dir/src/useful_masks.cpp.s: cmake_force
 CMakeFiles/odyssey.dir/src/valid.cpp.o: CMakeFiles/odyssey.dir/flags.make
 CMakeFiles/odyssey.dir/src/valid.cpp.o: src/valid.cpp
 CMakeFiles/odyssey.dir/src/valid.cpp.o: CMakeFiles/odyssey.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harry/CS/Odyssey/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/odyssey.dir/src/valid.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harry/CS/Odyssey/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/odyssey.dir/src/valid.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/odyssey.dir/src/valid.cpp.o -MF CMakeFiles/odyssey.dir/src/valid.cpp.o.d -o CMakeFiles/odyssey.dir/src/valid.cpp.o -c /home/harry/CS/Odyssey/src/valid.cpp
 
 CMakeFiles/odyssey.dir/src/valid.cpp.i: cmake_force
@@ -394,7 +408,7 @@ CMakeFiles/odyssey.dir/src/valid.cpp.s: cmake_force
 CMakeFiles/odyssey.dir/src/zobrist.cpp.o: CMakeFiles/odyssey.dir/flags.make
 CMakeFiles/odyssey.dir/src/zobrist.cpp.o: src/zobrist.cpp
 CMakeFiles/odyssey.dir/src/zobrist.cpp.o: CMakeFiles/odyssey.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harry/CS/Odyssey/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/odyssey.dir/src/zobrist.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harry/CS/Odyssey/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/odyssey.dir/src/zobrist.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/odyssey.dir/src/zobrist.cpp.o -MF CMakeFiles/odyssey.dir/src/zobrist.cpp.o.d -o CMakeFiles/odyssey.dir/src/zobrist.cpp.o -c /home/harry/CS/Odyssey/src/zobrist.cpp
 
 CMakeFiles/odyssey.dir/src/zobrist.cpp.i: cmake_force
@@ -423,6 +437,7 @@ odyssey_OBJECTS = \
 "CMakeFiles/odyssey.dir/src/material_evaluation.cpp.o" \
 "CMakeFiles/odyssey.dir/src/movegen.cpp.o" \
 "CMakeFiles/odyssey.dir/src/perft.cpp.o" \
+"CMakeFiles/odyssey.dir/src/piece_square_table.cpp.o" \
 "CMakeFiles/odyssey.dir/src/pinned.cpp.o" \
 "CMakeFiles/odyssey.dir/src/predict_hash.cpp.o" \
 "CMakeFiles/odyssey.dir/src/set_fen.cpp.o" \
@@ -451,6 +466,7 @@ odyssey: CMakeFiles/odyssey.dir/src/makemove.cpp.o
 odyssey: CMakeFiles/odyssey.dir/src/material_evaluation.cpp.o
 odyssey: CMakeFiles/odyssey.dir/src/movegen.cpp.o
 odyssey: CMakeFiles/odyssey.dir/src/perft.cpp.o
+odyssey: CMakeFiles/odyssey.dir/src/piece_square_table.cpp.o
 odyssey: CMakeFiles/odyssey.dir/src/pinned.cpp.o
 odyssey: CMakeFiles/odyssey.dir/src/predict_hash.cpp.o
 odyssey: CMakeFiles/odyssey.dir/src/set_fen.cpp.o
@@ -461,7 +477,7 @@ odyssey: CMakeFiles/odyssey.dir/src/valid.cpp.o
 odyssey: CMakeFiles/odyssey.dir/src/zobrist.cpp.o
 odyssey: CMakeFiles/odyssey.dir/build.make
 odyssey: CMakeFiles/odyssey.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/harry/CS/Odyssey/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX executable odyssey"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/harry/CS/Odyssey/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking CXX executable odyssey"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/odyssey.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

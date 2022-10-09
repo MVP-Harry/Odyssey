@@ -513,6 +513,30 @@ src/perft.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/odyssey.dir/build.make CMakeFiles/odyssey.dir/src/perft.cpp.s
 .PHONY : src/perft.cpp.s
 
+src/piece_square_table.o: src/piece_square_table.cpp.o
+.PHONY : src/piece_square_table.o
+
+# target to build an object file
+src/piece_square_table.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odyssey.dir/build.make CMakeFiles/odyssey.dir/src/piece_square_table.cpp.o
+.PHONY : src/piece_square_table.cpp.o
+
+src/piece_square_table.i: src/piece_square_table.cpp.i
+.PHONY : src/piece_square_table.i
+
+# target to preprocess a source file
+src/piece_square_table.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odyssey.dir/build.make CMakeFiles/odyssey.dir/src/piece_square_table.cpp.i
+.PHONY : src/piece_square_table.cpp.i
+
+src/piece_square_table.s: src/piece_square_table.cpp.s
+.PHONY : src/piece_square_table.s
+
+# target to generate assembly for a file
+src/piece_square_table.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odyssey.dir/build.make CMakeFiles/odyssey.dir/src/piece_square_table.cpp.s
+.PHONY : src/piece_square_table.cpp.s
+
 src/pinned.o: src/pinned.cpp.o
 .PHONY : src/pinned.o
 
@@ -762,6 +786,9 @@ help:
 	@echo "... src/perft.o"
 	@echo "... src/perft.i"
 	@echo "... src/perft.s"
+	@echo "... src/piece_square_table.o"
+	@echo "... src/piece_square_table.i"
+	@echo "... src/piece_square_table.s"
 	@echo "... src/pinned.o"
 	@echo "... src/pinned.i"
 	@echo "... src/pinned.s"

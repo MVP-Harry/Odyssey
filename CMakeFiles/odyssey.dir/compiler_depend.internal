@@ -2914,6 +2914,8 @@ CMakeFiles/odyssey.dir/src/material_evaluation.cpp.o
  /home/harry/CS/Odyssey/src/libchess/side.hpp
  /home/harry/CS/Odyssey/src/libchess/zobrist.hpp
  /home/harry/CS/Odyssey/src/libchess/piece_square_table.hpp
+ /home/harry/CS/Odyssey/src/libchess/useful_masks.hpp
+ /home/harry/CS/Odyssey/src/libchess/bitboard.hpp
 
 CMakeFiles/odyssey.dir/src/movegen.cpp.o
  /home/harry/CS/Odyssey/src/movegen.cpp
@@ -3315,6 +3317,11 @@ CMakeFiles/odyssey.dir/src/perft.cpp.o
  /home/harry/CS/Odyssey/src/libchess/piece.hpp
  /home/harry/CS/Odyssey/src/libchess/side.hpp
  /home/harry/CS/Odyssey/src/libchess/zobrist.hpp
+
+CMakeFiles/odyssey.dir/src/piece_square_table.cpp.o
+ /home/harry/CS/Odyssey/src/piece_square_table.cpp
+ /usr/include/stdc-predef.h
+ /home/harry/CS/Odyssey/src/libchess/piece_square_table.hpp
 
 CMakeFiles/odyssey.dir/src/pinned.cpp.o
  /home/harry/CS/Odyssey/src/pinned.cpp

@@ -37,4 +37,7 @@ void init_masks() {
             file_masks[8 * rank + file] = set_file;
         }
     }
+    
+    // initializing isolated_masks
+    
 }

@@ -2899,7 +2899,9 @@ CMakeFiles/odyssey.dir/src/material_evaluation.cpp.o: src/material_evaluation.cp
   src/libchess/piece.hpp \
   src/libchess/side.hpp \
   src/libchess/zobrist.hpp \
-  src/libchess/piece_square_table.hpp
+  src/libchess/piece_square_table.hpp \
+  src/libchess/useful_masks.hpp \
+  src/libchess/bitboard.hpp
 
 CMakeFiles/odyssey.dir/src/movegen.cpp.o: src/movegen.cpp \
   /usr/include/stdc-predef.h \
@@ -3299,6 +3301,10 @@ CMakeFiles/odyssey.dir/src/perft.cpp.o: src/perft.cpp \
   src/libchess/piece.hpp \
   src/libchess/side.hpp \
   src/libchess/zobrist.hpp
+
+CMakeFiles/odyssey.dir/src/piece_square_table.cpp.o: src/piece_square_table.cpp \
+  /usr/include/stdc-predef.h \
+  src/libchess/piece_square_table.hpp
 
 CMakeFiles/odyssey.dir/src/pinned.cpp.o: src/pinned.cpp \
   /usr/include/stdc-predef.h \
@@ -5161,6 +5167,10 @@ src/makemove.cpp:
 
 /usr/include/sys/cdefs.h:
 
+src/undomove.cpp:
+
+src/libchess/movegen.hpp:
+
 /usr/include/c++/12.2.0/bits/stl_vector.h:
 
 /usr/include/c++/12.2.0/bits/stl_iterator_base_types.h:
@@ -5280,10 +5290,6 @@ src/checkers.cpp:
 /usr/include/c++/12.2.0/bits/locale_classes.tcc:
 
 src/libchess/move.hpp:
-
-src/libchess/movegen.hpp:
-
-src/undomove.cpp:
 
 /usr/include/bits/byteswap.h:
 
@@ -5411,10 +5417,6 @@ src/is_legal.cpp:
 
 /usr/include/c++/12.2.0/tuple:
 
-/usr/include/c++/12.2.0/bits/exception.h:
-
-/usr/include/c++/12.2.0/bits/uses_allocator.h:
-
 src/king_allowed.cpp:
 
 src/legal_captures.cpp:
@@ -5446,3 +5448,9 @@ src/pinned.cpp:
 /usr/include/c++/12.2.0/bits/istream.tcc:
 
 /usr/include/c++/12.2.0/iostream:
+
+/usr/include/c++/12.2.0/bits/exception.h:
+
+/usr/include/c++/12.2.0/bits/uses_allocator.h:
+
+src/piece_square_table.cpp:
