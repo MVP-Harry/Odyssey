@@ -38,7 +38,7 @@ int Position::material_evaluation() {
 
             // special rewards/penalties based on the pieces
             switch (current_piece) {
-                case Pawn:
+                case Pawn: {
                     // punish double pawns
                     int double_pawns = (file_masks[int_square] & pieces(White, Pawn)).count();
                     if (double_pawns > 1) {
@@ -59,18 +59,20 @@ int Position::material_evaluation() {
                         score_opening += passed_pawn_bonus[square.rank()];
                         score_endgame += passed_pawn_bonus[square.rank()];
                     }
+                }
                     break; 
 
                 // no additional bonus/penalties for knights
 
-                case Bishop:
+                case Bishop: {
                     // consider the mobilitiy of the bishop
                     int bishop_moves = movegen::bishop_moves(square, occupied()).count();
                     score_opening += (bishop_moves - bishop_unit) * bishop_mobility_opening;
                     score_endgame += (bishop_moves - bishop_unit) * bishop_mobility_endgame;
+                }
                     break;
                 
-                case Rook:
+                case Rook: {
                     // bonus for semi-open file
                     bool is_semi_open = ((occupancy(Pawn) & occupancy(White)) & file_masks[int_square]).empty();
                     if (is_semi_open) {
@@ -84,17 +86,19 @@ int Position::material_evaluation() {
                         score_opening += open_file_score;
                         score_endgame += open_file_score;
                     }
+                }
                     break;
 
                 
-                case Queen:
+                case Queen: {
                     // consider the mobility of the queen
                     int queen_moves = movegen::queen_moves(square, occupied()).count();
                     score_opening += (queen_moves - queen_unit) * queen_mobility_opening;
                     score_endgame += (queen_moves - queen_unit) * queen_mobility_endgame;
+                }
                     break;
 
-                case King:
+                case King: {
                     // penalties for semi-open file
                     bool is_semi_open = ((occupancy(Pawn) & occupancy(White)) & file_masks[int_square]).empty();
                     if (is_semi_open) {
@@ -113,6 +117,11 @@ int Position::material_evaluation() {
                     int king_shield = (movegen::king_moves(square) & occupancy(White)).count();
                     score_opening += king_shield * king_shield_bonus;
                     score_endgame += king_shield * king_shield_bonus;
+                }
+                    break;
+                
+                default:
+                    throw std::invalid_argument("Are you sure you are playing chess?");
                     break;
             }
         }

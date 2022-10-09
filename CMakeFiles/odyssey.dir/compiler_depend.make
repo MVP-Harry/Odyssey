@@ -2490,7 +2490,8 @@ CMakeFiles/odyssey.dir/src/main.cpp.o: src/main.cpp \
   src/libchess/move.hpp \
   src/libchess/piece.hpp \
   src/libchess/side.hpp \
-  src/libchess/zobrist.hpp
+  src/libchess/zobrist.hpp \
+  src/libchess/movegen.hpp
 
 CMakeFiles/odyssey.dir/src/makemove.cpp.o: src/makemove.cpp \
   /usr/include/stdc-predef.h \
@@ -2901,7 +2902,8 @@ CMakeFiles/odyssey.dir/src/material_evaluation.cpp.o: src/material_evaluation.cp
   src/libchess/zobrist.hpp \
   src/libchess/piece_square_table.hpp \
   src/libchess/useful_masks.hpp \
-  src/libchess/bitboard.hpp
+  src/libchess/bitboard.hpp \
+  src/libchess/movegen.hpp
 
 CMakeFiles/odyssey.dir/src/movegen.cpp.o: src/movegen.cpp \
   /usr/include/stdc-predef.h \

@@ -2503,6 +2503,7 @@ CMakeFiles/odyssey.dir/src/main.cpp.o
  /home/harry/CS/Odyssey/src/libchess/piece.hpp
  /home/harry/CS/Odyssey/src/libchess/side.hpp
  /home/harry/CS/Odyssey/src/libchess/zobrist.hpp
+ /home/harry/CS/Odyssey/src/libchess/movegen.hpp
 
 CMakeFiles/odyssey.dir/src/makemove.cpp.o
  /home/harry/CS/Odyssey/src/makemove.cpp
@@ -2916,6 +2917,7 @@ CMakeFiles/odyssey.dir/src/material_evaluation.cpp.o
  /home/harry/CS/Odyssey/src/libchess/piece_square_table.hpp
  /home/harry/CS/Odyssey/src/libchess/useful_masks.hpp
  /home/harry/CS/Odyssey/src/libchess/bitboard.hpp
+ /home/harry/CS/Odyssey/src/libchess/movegen.hpp
 
 CMakeFiles/odyssey.dir/src/movegen.cpp.o
  /home/harry/CS/Odyssey/src/movegen.cpp
