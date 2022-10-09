@@ -38,6 +38,42 @@ void init_masks() {
         }
     }
     
-    // initializing isolated_masks
+    // initializing isolated_masks: the file(s) next to the current file
+    for (int file = 0; file < 8; file++) {
+        for (int rank = 0; rank < 8; rank++) {
+            int square = 8 * rank + file;
+            if (file != 0) isolated_masks[square] |= file_masks[square - 1];
+            if (file != 7) isolated_masks[square] |= file_masks[square + 1];
+        }
+    }
+
+    // initializing white_passed_masks
+    for (int file = 0; file < 8; file++) {
+        for (int rank = 0; rank < 8; rank++) {
+            int square = 8 * rank + file;
+            if (file != 0) white_passed_masks[square] |= file_masks[square - 1];
+            if (file != 7) white_passed_masks[square] |= file_masks[square + 1];
+            white_passed_masks[square] |= file_masks[square];
+            int get_rid_of = square;
+            while (get_rid_of >= 0) {
+                white_passed_masks[square] &= (~rank_masks[get_rid_of]);
+                get_rid_of -= 8;
+            }
+        }
+    }
     
+    // initializing black_passed_masks
+    for (int file = 0; file < 8; file++) {
+        for (int rank = 0; rank < 8; rank++) {
+            int square = 8 * rank + file;
+            if (file != 0) black_passed_masks[square] |= file_masks[square - 1];
+            if (file != 7) black_passed_masks[square] |= file_masks[square + 1];
+            black_passed_masks[square] |= file_masks[square];
+            int get_rid_of = square;
+            while (get_rid_of < 64) {
+                black_passed_masks[square] &= (~rank_masks[get_rid_of]);
+                get_rid_of += 8;
+            }
+        }
+    }
 }

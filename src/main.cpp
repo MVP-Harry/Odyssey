@@ -17,7 +17,7 @@ int main(int argc, char **argv) {
 
     init_masks();
     for (int i = 0; i < 64; i++) {
-        std::cout << file_masks[i] << std::endl;
+        std::cout << black_passed_masks[i] << std::endl;
     }
 
     /*
