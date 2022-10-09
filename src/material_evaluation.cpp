@@ -86,7 +86,7 @@ int Position::material_evaluation() {
                     }
                     break;
 
-                /*
+                
                 case Queen:
                     ;
                     break;
@@ -94,7 +94,6 @@ int Position::material_evaluation() {
                 case King:
                     ;
                     break;
-                */
             }
         }
 
