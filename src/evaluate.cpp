@@ -172,8 +172,8 @@ int Position::evaluate() {
                     // reward passed pawns
                     bool is_passed = (black_passed_masks[int_square] & pieces(White, Pawn)).empty();
                     if (is_passed) {
-                        score_opening -= passed_pawn_bonus[square.rank()];
-                        score_endgame -= passed_pawn_bonus[square.rank()];
+                        score_opening -= passed_pawn_bonus[8 - square.rank()];
+                        score_endgame -= passed_pawn_bonus[8 - square.rank()];
                     }
                 }
                     break; 
@@ -241,10 +241,19 @@ int Position::evaluate() {
                     break;
             }
         }
-
     }
 
-    return score;
+    // if middlegame, weight the score
+    if (game_phase == middlegame) {
+        score = (
+            score_opening * phase_score +
+            score_endgame * (opening_phase_score - phase_score)
+        ) / opening_phase_score;
+    } 
+    else if (game_phase == opening) score = score_opening;
+    else score = score_endgame;
+
+    return (turn() == White) ? score : -score;
 }
 
 } // namespace libchess
