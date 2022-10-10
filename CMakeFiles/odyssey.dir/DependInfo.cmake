@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/harry/CS/Odyssey/src/checkers.cpp" "CMakeFiles/odyssey.dir/src/checkers.cpp.o" "gcc" "CMakeFiles/odyssey.dir/src/checkers.cpp.o.d"
   "/home/harry/CS/Odyssey/src/count_moves.cpp" "CMakeFiles/odyssey.dir/src/count_moves.cpp.o" "gcc" "CMakeFiles/odyssey.dir/src/count_moves.cpp.o.d"
   "/home/harry/CS/Odyssey/src/evaluate.cpp" "CMakeFiles/odyssey.dir/src/evaluate.cpp.o" "gcc" "CMakeFiles/odyssey.dir/src/evaluate.cpp.o.d"
+  "/home/harry/CS/Odyssey/src/game_phase_score.cpp" "CMakeFiles/odyssey.dir/src/game_phase_score.cpp.o" "gcc" "CMakeFiles/odyssey.dir/src/game_phase_score.cpp.o.d"
   "/home/harry/CS/Odyssey/src/get_fen.cpp" "CMakeFiles/odyssey.dir/src/get_fen.cpp.o" "gcc" "CMakeFiles/odyssey.dir/src/get_fen.cpp.o.d"
   "/home/harry/CS/Odyssey/src/is_legal.cpp" "CMakeFiles/odyssey.dir/src/is_legal.cpp.o" "gcc" "CMakeFiles/odyssey.dir/src/is_legal.cpp.o.d"
   "/home/harry/CS/Odyssey/src/king_allowed.cpp" "CMakeFiles/odyssey.dir/src/king_allowed.cpp.o" "gcc" "CMakeFiles/odyssey.dir/src/king_allowed.cpp.o.d"

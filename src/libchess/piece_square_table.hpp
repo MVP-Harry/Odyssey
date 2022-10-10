@@ -38,6 +38,9 @@ extern const int queen_mobility_endgame;
 // king's shield bonus
 extern const int king_shield_bonus;
 
+extern const int opening_phase_score;
+extern const int endgame_phase_score;
+
 enum {opening, endgame, middlegame};
 
 #endif

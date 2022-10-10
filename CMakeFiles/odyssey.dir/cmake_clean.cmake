@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/odyssey.dir/src/count_moves.cpp.o.d"
   "CMakeFiles/odyssey.dir/src/evaluate.cpp.o"
   "CMakeFiles/odyssey.dir/src/evaluate.cpp.o.d"
+  "CMakeFiles/odyssey.dir/src/game_phase_score.cpp.o"
+  "CMakeFiles/odyssey.dir/src/game_phase_score.cpp.o.d"
   "CMakeFiles/odyssey.dir/src/get_fen.cpp.o"
   "CMakeFiles/odyssey.dir/src/get_fen.cpp.o.d"
   "CMakeFiles/odyssey.dir/src/is_legal.cpp.o"

@@ -170,3 +170,6 @@ const int queen_mobility_endgame = 2;
 
 // king's shield bonus
 const int king_shield_bonus = 5;
+
+const int opening_phase_score = 6192;
+const int endgame_phase_score = 518;

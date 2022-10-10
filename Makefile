@@ -249,6 +249,30 @@ src/evaluate.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/odyssey.dir/build.make CMakeFiles/odyssey.dir/src/evaluate.cpp.s
 .PHONY : src/evaluate.cpp.s
 
+src/game_phase_score.o: src/game_phase_score.cpp.o
+.PHONY : src/game_phase_score.o
+
+# target to build an object file
+src/game_phase_score.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odyssey.dir/build.make CMakeFiles/odyssey.dir/src/game_phase_score.cpp.o
+.PHONY : src/game_phase_score.cpp.o
+
+src/game_phase_score.i: src/game_phase_score.cpp.i
+.PHONY : src/game_phase_score.i
+
+# target to preprocess a source file
+src/game_phase_score.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odyssey.dir/build.make CMakeFiles/odyssey.dir/src/game_phase_score.cpp.i
+.PHONY : src/game_phase_score.cpp.i
+
+src/game_phase_score.s: src/game_phase_score.cpp.s
+.PHONY : src/game_phase_score.s
+
+# target to generate assembly for a file
+src/game_phase_score.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odyssey.dir/build.make CMakeFiles/odyssey.dir/src/game_phase_score.cpp.s
+.PHONY : src/game_phase_score.cpp.s
+
 src/get_fen.o: src/get_fen.cpp.o
 .PHONY : src/get_fen.o
 
@@ -729,6 +753,9 @@ help:
 	@echo "... src/evaluate.o"
 	@echo "... src/evaluate.i"
 	@echo "... src/evaluate.s"
+	@echo "... src/game_phase_score.o"
+	@echo "... src/game_phase_score.i"
+	@echo "... src/game_phase_score.s"
 	@echo "... src/get_fen.o"
 	@echo "... src/get_fen.i"
 	@echo "... src/get_fen.s"
