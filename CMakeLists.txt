@@ -20,7 +20,8 @@ set(SOURCE_FILES
     src/check_evasions.cpp
     src/checkers.cpp
     src/count_moves.cpp
-    src/evaluation.cpp
+    src/evaluate.cpp
+    src/game_phase_score.cpp
     src/get_fen.cpp
     src/is_legal.cpp
     src/king_allowed.cpp
@@ -29,7 +30,6 @@ set(SOURCE_FILES
     src/legal_noncaptures.cpp
     src/main.cpp
     src/makemove.cpp
-    src/material_evaluation.cpp
     src/movegen.cpp
     src/perft.cpp
     src/piece_square_table.cpp

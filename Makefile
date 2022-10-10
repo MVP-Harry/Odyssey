@@ -225,29 +225,29 @@ src/count_moves.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/odyssey.dir/build.make CMakeFiles/odyssey.dir/src/count_moves.cpp.s
 .PHONY : src/count_moves.cpp.s
 
-src/evaluation.o: src/evaluation.cpp.o
-.PHONY : src/evaluation.o
+src/evaluate.o: src/evaluate.cpp.o
+.PHONY : src/evaluate.o
 
 # target to build an object file
-src/evaluation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/odyssey.dir/build.make CMakeFiles/odyssey.dir/src/evaluation.cpp.o
-.PHONY : src/evaluation.cpp.o
+src/evaluate.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odyssey.dir/build.make CMakeFiles/odyssey.dir/src/evaluate.cpp.o
+.PHONY : src/evaluate.cpp.o
 
-src/evaluation.i: src/evaluation.cpp.i
-.PHONY : src/evaluation.i
+src/evaluate.i: src/evaluate.cpp.i
+.PHONY : src/evaluate.i
 
 # target to preprocess a source file
-src/evaluation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/odyssey.dir/build.make CMakeFiles/odyssey.dir/src/evaluation.cpp.i
-.PHONY : src/evaluation.cpp.i
+src/evaluate.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odyssey.dir/build.make CMakeFiles/odyssey.dir/src/evaluate.cpp.i
+.PHONY : src/evaluate.cpp.i
 
-src/evaluation.s: src/evaluation.cpp.s
-.PHONY : src/evaluation.s
+src/evaluate.s: src/evaluate.cpp.s
+.PHONY : src/evaluate.s
 
 # target to generate assembly for a file
-src/evaluation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/odyssey.dir/build.make CMakeFiles/odyssey.dir/src/evaluation.cpp.s
-.PHONY : src/evaluation.cpp.s
+src/evaluate.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odyssey.dir/build.make CMakeFiles/odyssey.dir/src/evaluate.cpp.s
+.PHONY : src/evaluate.cpp.s
 
 src/get_fen.o: src/get_fen.cpp.o
 .PHONY : src/get_fen.o
@@ -440,30 +440,6 @@ src/makemove.s: src/makemove.cpp.s
 src/makemove.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/odyssey.dir/build.make CMakeFiles/odyssey.dir/src/makemove.cpp.s
 .PHONY : src/makemove.cpp.s
-
-src/material_evaluation.o: src/material_evaluation.cpp.o
-.PHONY : src/material_evaluation.o
-
-# target to build an object file
-src/material_evaluation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/odyssey.dir/build.make CMakeFiles/odyssey.dir/src/material_evaluation.cpp.o
-.PHONY : src/material_evaluation.cpp.o
-
-src/material_evaluation.i: src/material_evaluation.cpp.i
-.PHONY : src/material_evaluation.i
-
-# target to preprocess a source file
-src/material_evaluation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/odyssey.dir/build.make CMakeFiles/odyssey.dir/src/material_evaluation.cpp.i
-.PHONY : src/material_evaluation.cpp.i
-
-src/material_evaluation.s: src/material_evaluation.cpp.s
-.PHONY : src/material_evaluation.s
-
-# target to generate assembly for a file
-src/material_evaluation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/odyssey.dir/build.make CMakeFiles/odyssey.dir/src/material_evaluation.cpp.s
-.PHONY : src/material_evaluation.cpp.s
 
 src/movegen.o: src/movegen.cpp.o
 .PHONY : src/movegen.o
@@ -750,9 +726,9 @@ help:
 	@echo "... src/count_moves.o"
 	@echo "... src/count_moves.i"
 	@echo "... src/count_moves.s"
-	@echo "... src/evaluation.o"
-	@echo "... src/evaluation.i"
-	@echo "... src/evaluation.s"
+	@echo "... src/evaluate.o"
+	@echo "... src/evaluate.i"
+	@echo "... src/evaluate.s"
 	@echo "... src/get_fen.o"
 	@echo "... src/get_fen.i"
 	@echo "... src/get_fen.s"
@@ -777,9 +753,6 @@ help:
 	@echo "... src/makemove.o"
 	@echo "... src/makemove.i"
 	@echo "... src/makemove.s"
-	@echo "... src/material_evaluation.o"
-	@echo "... src/material_evaluation.i"
-	@echo "... src/material_evaluation.s"
 	@echo "... src/movegen.o"
 	@echo "... src/movegen.i"
 	@echo "... src/movegen.s"

@@ -5,7 +5,7 @@
 
 namespace libchess {
 
-int Position::material_evaluation() {
+int Position::evaluate() {
     /* 
     Evaluation ideas:
     penalty for rook pair

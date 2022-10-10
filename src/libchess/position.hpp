@@ -345,13 +345,11 @@ class Position {
 
     [[nodiscard]] bool valid() const noexcept;
 
-    // main evaluation function
-    int evaluation(); 
+    // evaluation
+    int evaluate();
 
-    // material evaluation
-    int material_evaluation();
-
-    // TODO: space, piece squares, pawn stucture, tempo
+    // check game phase score;
+    int game_phase_score();
 
    private:
     void set(const Square sq, const Side s, const Piece p) noexcept {
