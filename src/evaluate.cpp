@@ -2,6 +2,7 @@
 #include <libchess/piece_square_table.hpp>
 #include <libchess/useful_masks.hpp>
 #include <libchess/movegen.hpp>
+#include <iostream>
 
 namespace libchess {
 
@@ -23,8 +24,10 @@ int Position::evaluate() {
     int phase_score = game_phase_score();
     int game_phase = -1;
     if (phase_score > opening_phase_score) game_phase = opening;
-    if (phase_score < endgame_phase_score) game_phase = endgame;
+    else if (phase_score < endgame_phase_score) game_phase = endgame;
     else game_phase = middlegame;
+
+    std::cout << "Current game phase is: " << game_phase << std::endl;
 
     // for the white pieces
     for (int current_piece = Pawn; current_piece <= King; current_piece++) {
@@ -70,6 +73,7 @@ int Position::evaluate() {
                     break; 
 
                 // no additional bonus/penalties for knights
+                case Knight: break;
 
                 case Bishop: {
                     // consider the mobilitiy of the bishop
@@ -128,6 +132,7 @@ int Position::evaluate() {
                     break;
                 
                 default:
+                    std::cout << current_piece << std::endl;
                     throw std::invalid_argument("Are you sure you are playing chess?");
                     break;
             }
@@ -149,8 +154,9 @@ int Position::evaluate() {
             piece_bitboard ^= square;
             
             // taking the placement of the pieces into account
-            score_opening -= positional_score[opening][current_piece][int_square];
-            score_endgame -= positional_score[endgame][current_piece][int_square];
+            // for the black pieces, we need to take the opposite square
+            score_opening -= positional_score[opening][current_piece][(int) square.flip()];
+            score_endgame -= positional_score[endgame][current_piece][(int) square.flip()];
 
             // special rewards/penalties based on the pieces
             switch (current_piece) {
@@ -179,6 +185,7 @@ int Position::evaluate() {
                     break; 
 
                 // no additional bonus/penalties for knights
+                case Knight: break;
 
                 case Bishop: {
                     // consider the mobilitiy of the bishop
@@ -237,6 +244,7 @@ int Position::evaluate() {
                     break;
                 
                 default:
+                    std::cout << current_piece << std::endl;
                     throw std::invalid_argument("Are you sure you are playing chess?");
                     break;
             }

@@ -153,4 +153,6 @@ CMakeFiles/odyssey.dir/src/evaluate.cpp.o: \
  /home/harry/CS/Odyssey/./src/libchess/piece_square_table.hpp \
  /home/harry/CS/Odyssey/./src/libchess/useful_masks.hpp \
  /home/harry/CS/Odyssey/./src/libchess/bitboard.hpp \
- /home/harry/CS/Odyssey/./src/libchess/movegen.hpp
+ /home/harry/CS/Odyssey/./src/libchess/movegen.hpp \
+ /usr/include/c++/12.2.0/iostream /usr/include/c++/12.2.0/istream \
+ /usr/include/c++/12.2.0/bits/istream.tcc

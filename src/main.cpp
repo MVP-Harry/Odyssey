@@ -15,11 +15,7 @@ int main(int argc, char **argv) {
     /*
     Intializing useful masks
     */ 
-
     init_masks();
-    for (int i = 0; i < 64; i++) {
-        std::cout << black_passed_masks[i] << std::endl;
-    }
 
     /*
     argc is the number of arguments that the main function takes
@@ -27,7 +23,10 @@ int main(int argc, char **argv) {
     argv is a string array that contains all the command-line arguments
     */
 
-    /* Initializing a position 
+    /* 
+    Initializing a position 
+    */
+
     int depth = 6;
     std::string fen;
 
@@ -52,7 +51,23 @@ int main(int argc, char **argv) {
 
     std::cout << pos << std::endl;
     std::cout << std::endl;
-    */
+
+    // int piece = Knight;
+
+    // switch(piece) {
+    //     case Bishop:
+    //         std::cout << "hold there" << std::endl;
+    //         break;
+    //     case Knight:
+    //         std::cout << "Hi" << std::endl;
+    //         break;
+    //     default:
+    //         std::cout << "wtf" << std::endl;
+    //         break;
+    // }
+
+    int evaluation_score = pos.evaluate();
+    std::cout << evaluation_score << std::endl;
 
     // perft of current position
     // for (int i = 0; i <= depth; ++i) {
