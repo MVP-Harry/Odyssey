@@ -1,6 +1,19 @@
 {
     "C_Cpp.errorSquiggles": "Enabled",
     "files.associations": {
-        "*.inc": "cpp"
+        "*.inc": "cpp",
+        "hash_map": "cpp",
+        "hash_set": "cpp",
+        "*.tcc": "cpp",
+        "string": "cpp",
+        "unordered_map": "cpp",
+        "unordered_set": "cpp",
+        "vector": "cpp",
+        "functional": "cpp",
+        "memory": "cpp",
+        "optional": "cpp",
+        "string_view": "cpp",
+        "system_error": "cpp",
+        "variant": "cpp"
     }
 }
