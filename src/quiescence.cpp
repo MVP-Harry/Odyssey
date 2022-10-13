@@ -20,4 +20,8 @@ int Position::quiescence(int alpha, int beta) {
 
     // sort moves
     sort_moves(move_list);
+
+    for (auto move : move_list) {
+        makemove(move);
+    }
 }

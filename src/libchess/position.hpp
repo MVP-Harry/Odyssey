@@ -390,7 +390,7 @@ class Position {
     */
 
    // sort moves
-   void sort_moves(std::vector<Move> move_list);
+   void sort_moves(std::vector<Move>& move_list);
 
    // quiescence search
    int quiescence(int alpha, int beta);
