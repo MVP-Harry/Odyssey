@@ -37,10 +37,6 @@ extern const int mate_value;
 extern const int mate_score;
 extern int mvv_lva[12][12];
 extern const int max_ply;
-extern int killer_moves[2][64];
-extern int pv_length[64];
-extern int pv_table[64][64];
-extern int follow_pv, score_pv;
 
 class Position {
    public:
@@ -365,6 +361,31 @@ class Position {
 
     /*
         SEARCH
+    */
+
+    // PV stands for Principle Variation
+    // It's the variation that is expected to happen by the engine
+    // pv_table[i] is the set of moves at ply i
+    Move killer_moves[2][64];
+    int pv_length[64];
+    Move pv_table[64][64];
+    int follow_pv, score_pv;
+
+   // score moves, important in deciding what move to consider first in alpha-beta search
+   void score_move();
+
+   void enable_pv_scoring();
+
+   /*  =======================
+         Move ordering
+    =======================
+    
+    1. PV move
+    2. Captures in MVV/LVA
+    3. 1st killer move
+    4. 2nd killer move
+    5. History moves
+    6. Unsorted moves
     */
 
    // sort moves
