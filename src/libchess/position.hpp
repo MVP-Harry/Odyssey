@@ -369,13 +369,13 @@ class Position {
     Move killer_moves[2][64];
     int pv_length[64];
     Move pv_table[64][64];
-    Move his_moves[12][64];
+    int his_moves[12][64];
     int follow_pv, score_pv;
 
    // score moves, important in deciding what move to consider first in alpha-beta search
-   void score_move(Move move);
+   int score_move(Move move);
 
-   void enable_pv_scoring(std::vector<Move> move_list);
+   void enable_pv_scoring(std::vector<Move> moves);
 
    /*  =======================
          Move ordering
