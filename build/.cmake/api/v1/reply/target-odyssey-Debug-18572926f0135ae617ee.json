@@ -25,7 +25,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 50,
+				"line" : 51,
 				"parent" : 0
 			},
 			{
@@ -103,7 +103,8 @@
 				24,
 				25,
 				26,
-				27
+				27,
+				28
 			]
 		}
 	],
@@ -163,7 +164,8 @@
 				24,
 				25,
 				26,
-				27
+				27,
+				28
 			]
 		}
 	],
@@ -257,6 +259,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "src/movegen.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/negamax.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{

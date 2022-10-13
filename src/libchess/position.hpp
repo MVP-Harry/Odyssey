@@ -37,6 +37,8 @@ extern const int mate_value;
 extern const int mate_score;
 extern int mvv_lva[12][12];
 extern const int max_ply;
+extern const int full_depth_moves;
+extern const int reduction_limit;
 
 class Position {
    public:
@@ -373,9 +375,9 @@ class Position {
     int follow_pv, score_pv;
 
    // score moves, important in deciding what move to consider first in alpha-beta search
-   int score_move(Move move);
+    int score_move(Move move);
 
-   void enable_pv_scoring(std::vector<Move> moves);
+    void enable_pv_scoring(std::vector<Move> moves);
 
    /*  =======================
          Move ordering
@@ -390,11 +392,13 @@ class Position {
     */
 
    // sort moves
-   void sort_moves(std::vector<Move>& move_list);
+    void sort_moves(std::vector<Move>& move_list);
 
    // quiescence search
-   int quiescence(int alpha, int beta);
+    int quiescence(int alpha, int beta);
 
+    // implement alpha-beta search using the negamax framework
+    int negamax(int alpha, int beta, int depth);
 
    private:
     void set(const Square sq, const Side s, const Piece p) noexcept {

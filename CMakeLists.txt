@@ -31,6 +31,7 @@ set(SOURCE_FILES
     src/main.cpp
     src/makemove.cpp
     src/movegen.cpp
+    src/negamax.cpp
     src/perft.cpp
     src/piece_square_table.cpp
     src/pinned.cpp
