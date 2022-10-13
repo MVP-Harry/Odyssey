@@ -23,5 +23,18 @@ int Position::quiescence(int alpha, int beta) {
 
     for (auto move : move_list) {
         makemove(move);
+
+        // similar to the idea of negamax
+        int score = -quiescence(-beta, -alpha);
+
+        undomove();
+
+        if (score > alpha) {
+            alpha = score;
+            if (score >= beta)
+                return beta;
+        }
     }
+
+    return alpha;
 }
