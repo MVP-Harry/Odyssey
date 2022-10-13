@@ -21,6 +21,7 @@ set(SOURCE_FILES
     src/checkers.cpp
     src/count_moves.cpp
     src/evaluate.cpp
+    src/find_best_move.cpp
     src/game_phase_score.cpp
     src/get_fen.cpp
     src/is_legal.cpp

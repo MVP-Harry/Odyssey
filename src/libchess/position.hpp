@@ -400,6 +400,9 @@ class Position {
     // implement alpha-beta search using the negamax framework
     int negamax(int alpha, int beta, int depth);
 
+    // FINDING THE BEST MOVE!
+    void find_best_move(int depth);
+
    private:
     void set(const Square sq, const Side s, const Piece p) noexcept {
         colours_[s] |= sq;
