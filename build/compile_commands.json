@@ -96,6 +96,11 @@
 },
 {
   "directory": "/home/harry/CS/Odyssey/build",
+  "command": "/usr/bin/g++ -I/home/harry/CS/Odyssey/. -I/home/harry/CS/Odyssey/./src -Wall -pedantic -pedantic-errors -Wextra -Wcast-align -Wcast-qual -Wchar-subscripts -Wcomment -Wdisabled-optimization -Wfloat-equal -Wformat -Wformat=2 -Wformat-nonliteral -Wformat-security -Wformat-y2k -Wimport -Winit-self -Winline -Winvalid-pch -Wmissing-braces -Wmissing-field-initializers -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wodr -Wpacked -Wparentheses -Wpointer-arith -Wredundant-decls -Wreturn-type -Wsequence-point -Wshadow -Wsign-compare -Wstack-protector -Wstrict-aliasing -Wstrict-aliasing=2 -Wswitch -Wswitch-default -Wswitch-enum -Wtrigraphs -Wuninitialized -Wunknown-pragmas -Wunreachable-code -Wunused -Wunused-function -Wunused-label -Wunused-parameter -Wunused-value -Wunused-variable -Wvariadic-macros -Wvolatile-register-var -Wwrite-strings -g -std=gnu++20 -o CMakeFiles/odyssey.dir/src/quiescence.cpp.o -c /home/harry/CS/Odyssey/src/quiescence.cpp",
+  "file": "/home/harry/CS/Odyssey/src/quiescence.cpp"
+},
+{
+  "directory": "/home/harry/CS/Odyssey/build",
   "command": "/usr/bin/g++ -I/home/harry/CS/Odyssey/. -I/home/harry/CS/Odyssey/./src -Wall -pedantic -pedantic-errors -Wextra -Wcast-align -Wcast-qual -Wchar-subscripts -Wcomment -Wdisabled-optimization -Wfloat-equal -Wformat -Wformat=2 -Wformat-nonliteral -Wformat-security -Wformat-y2k -Wimport -Winit-self -Winline -Winvalid-pch -Wmissing-braces -Wmissing-field-initializers -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wodr -Wpacked -Wparentheses -Wpointer-arith -Wredundant-decls -Wreturn-type -Wsequence-point -Wshadow -Wsign-compare -Wstack-protector -Wstrict-aliasing -Wstrict-aliasing=2 -Wswitch -Wswitch-default -Wswitch-enum -Wtrigraphs -Wuninitialized -Wunknown-pragmas -Wunreachable-code -Wunused -Wunused-function -Wunused-label -Wunused-parameter -Wunused-value -Wunused-variable -Wvariadic-macros -Wvolatile-register-var -Wwrite-strings -g -std=gnu++20 -o CMakeFiles/odyssey.dir/src/set_fen.cpp.o -c /home/harry/CS/Odyssey/src/set_fen.cpp",
   "file": "/home/harry/CS/Odyssey/src/set_fen.cpp"
 },
@@ -108,6 +113,11 @@
   "directory": "/home/harry/CS/Odyssey/build",
   "command": "/usr/bin/g++ -I/home/harry/CS/Odyssey/. -I/home/harry/CS/Odyssey/./src -Wall -pedantic -pedantic-errors -Wextra -Wcast-align -Wcast-qual -Wchar-subscripts -Wcomment -Wdisabled-optimization -Wfloat-equal -Wformat -Wformat=2 -Wformat-nonliteral -Wformat-security -Wformat-y2k -Wimport -Winit-self -Winline -Winvalid-pch -Wmissing-braces -Wmissing-field-initializers -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wodr -Wpacked -Wparentheses -Wpointer-arith -Wredundant-decls -Wreturn-type -Wsequence-point -Wshadow -Wsign-compare -Wstack-protector -Wstrict-aliasing -Wstrict-aliasing=2 -Wswitch -Wswitch-default -Wswitch-enum -Wtrigraphs -Wuninitialized -Wunknown-pragmas -Wunreachable-code -Wunused -Wunused-function -Wunused-label -Wunused-parameter -Wunused-value -Wunused-variable -Wvariadic-macros -Wvolatile-register-var -Wwrite-strings -g -std=gnu++20 -o CMakeFiles/odyssey.dir/src/undomove.cpp.o -c /home/harry/CS/Odyssey/src/undomove.cpp",
   "file": "/home/harry/CS/Odyssey/src/undomove.cpp"
+},
+{
+  "directory": "/home/harry/CS/Odyssey/build",
+  "command": "/usr/bin/g++ -I/home/harry/CS/Odyssey/. -I/home/harry/CS/Odyssey/./src -Wall -pedantic -pedantic-errors -Wextra -Wcast-align -Wcast-qual -Wchar-subscripts -Wcomment -Wdisabled-optimization -Wfloat-equal -Wformat -Wformat=2 -Wformat-nonliteral -Wformat-security -Wformat-y2k -Wimport -Winit-self -Winline -Winvalid-pch -Wmissing-braces -Wmissing-field-initializers -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wodr -Wpacked -Wparentheses -Wpointer-arith -Wredundant-decls -Wreturn-type -Wsequence-point -Wshadow -Wsign-compare -Wstack-protector -Wstrict-aliasing -Wstrict-aliasing=2 -Wswitch -Wswitch-default -Wswitch-enum -Wtrigraphs -Wuninitialized -Wunknown-pragmas -Wunreachable-code -Wunused -Wunused-function -Wunused-label -Wunused-parameter -Wunused-value -Wunused-variable -Wvariadic-macros -Wvolatile-register-var -Wwrite-strings -g -std=gnu++20 -o CMakeFiles/odyssey.dir/src/useful_constants.cpp.o -c /home/harry/CS/Odyssey/src/useful_constants.cpp",
+  "file": "/home/harry/CS/Odyssey/src/useful_constants.cpp"
 },
 {
   "directory": "/home/harry/CS/Odyssey/build",

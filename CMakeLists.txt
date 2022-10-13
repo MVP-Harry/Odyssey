@@ -35,9 +35,11 @@ set(SOURCE_FILES
     src/piece_square_table.cpp
     src/pinned.cpp
     src/predict_hash.cpp
+    src/quiescence.cpp
     src/set_fen.cpp
     src/square_attacked.cpp
     src/undomove.cpp
+    src/useful_constants.cpp
     src/useful_masks.cpp
     src/valid.cpp
     src/zobrist.cpp

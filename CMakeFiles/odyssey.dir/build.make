@@ -377,10 +377,24 @@ CMakeFiles/odyssey.dir/src/undomove.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/odyssey.dir/src/undomove.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/harry/CS/Odyssey/src/undomove.cpp -o CMakeFiles/odyssey.dir/src/undomove.cpp.s
 
+CMakeFiles/odyssey.dir/src/useful_constants.cpp.o: CMakeFiles/odyssey.dir/flags.make
+CMakeFiles/odyssey.dir/src/useful_constants.cpp.o: src/useful_constants.cpp
+CMakeFiles/odyssey.dir/src/useful_constants.cpp.o: CMakeFiles/odyssey.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harry/CS/Odyssey/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/odyssey.dir/src/useful_constants.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/odyssey.dir/src/useful_constants.cpp.o -MF CMakeFiles/odyssey.dir/src/useful_constants.cpp.o.d -o CMakeFiles/odyssey.dir/src/useful_constants.cpp.o -c /home/harry/CS/Odyssey/src/useful_constants.cpp
+
+CMakeFiles/odyssey.dir/src/useful_constants.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/odyssey.dir/src/useful_constants.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/harry/CS/Odyssey/src/useful_constants.cpp > CMakeFiles/odyssey.dir/src/useful_constants.cpp.i
+
+CMakeFiles/odyssey.dir/src/useful_constants.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/odyssey.dir/src/useful_constants.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/harry/CS/Odyssey/src/useful_constants.cpp -o CMakeFiles/odyssey.dir/src/useful_constants.cpp.s
+
 CMakeFiles/odyssey.dir/src/useful_masks.cpp.o: CMakeFiles/odyssey.dir/flags.make
 CMakeFiles/odyssey.dir/src/useful_masks.cpp.o: src/useful_masks.cpp
 CMakeFiles/odyssey.dir/src/useful_masks.cpp.o: CMakeFiles/odyssey.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harry/CS/Odyssey/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/odyssey.dir/src/useful_masks.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harry/CS/Odyssey/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/odyssey.dir/src/useful_masks.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/odyssey.dir/src/useful_masks.cpp.o -MF CMakeFiles/odyssey.dir/src/useful_masks.cpp.o.d -o CMakeFiles/odyssey.dir/src/useful_masks.cpp.o -c /home/harry/CS/Odyssey/src/useful_masks.cpp
 
 CMakeFiles/odyssey.dir/src/useful_masks.cpp.i: cmake_force
@@ -394,7 +408,7 @@ CMakeFiles/odyssey.dir/src/useful_masks.cpp.s: cmake_force
 CMakeFiles/odyssey.dir/src/valid.cpp.o: CMakeFiles/odyssey.dir/flags.make
 CMakeFiles/odyssey.dir/src/valid.cpp.o: src/valid.cpp
 CMakeFiles/odyssey.dir/src/valid.cpp.o: CMakeFiles/odyssey.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harry/CS/Odyssey/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/odyssey.dir/src/valid.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harry/CS/Odyssey/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/odyssey.dir/src/valid.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/odyssey.dir/src/valid.cpp.o -MF CMakeFiles/odyssey.dir/src/valid.cpp.o.d -o CMakeFiles/odyssey.dir/src/valid.cpp.o -c /home/harry/CS/Odyssey/src/valid.cpp
 
 CMakeFiles/odyssey.dir/src/valid.cpp.i: cmake_force
@@ -408,7 +422,7 @@ CMakeFiles/odyssey.dir/src/valid.cpp.s: cmake_force
 CMakeFiles/odyssey.dir/src/zobrist.cpp.o: CMakeFiles/odyssey.dir/flags.make
 CMakeFiles/odyssey.dir/src/zobrist.cpp.o: src/zobrist.cpp
 CMakeFiles/odyssey.dir/src/zobrist.cpp.o: CMakeFiles/odyssey.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harry/CS/Odyssey/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/odyssey.dir/src/zobrist.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harry/CS/Odyssey/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/odyssey.dir/src/zobrist.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/odyssey.dir/src/zobrist.cpp.o -MF CMakeFiles/odyssey.dir/src/zobrist.cpp.o.d -o CMakeFiles/odyssey.dir/src/zobrist.cpp.o -c /home/harry/CS/Odyssey/src/zobrist.cpp
 
 CMakeFiles/odyssey.dir/src/zobrist.cpp.i: cmake_force
@@ -443,6 +457,7 @@ odyssey_OBJECTS = \
 "CMakeFiles/odyssey.dir/src/set_fen.cpp.o" \
 "CMakeFiles/odyssey.dir/src/square_attacked.cpp.o" \
 "CMakeFiles/odyssey.dir/src/undomove.cpp.o" \
+"CMakeFiles/odyssey.dir/src/useful_constants.cpp.o" \
 "CMakeFiles/odyssey.dir/src/useful_masks.cpp.o" \
 "CMakeFiles/odyssey.dir/src/valid.cpp.o" \
 "CMakeFiles/odyssey.dir/src/zobrist.cpp.o"
@@ -472,12 +487,13 @@ odyssey: CMakeFiles/odyssey.dir/src/predict_hash.cpp.o
 odyssey: CMakeFiles/odyssey.dir/src/set_fen.cpp.o
 odyssey: CMakeFiles/odyssey.dir/src/square_attacked.cpp.o
 odyssey: CMakeFiles/odyssey.dir/src/undomove.cpp.o
+odyssey: CMakeFiles/odyssey.dir/src/useful_constants.cpp.o
 odyssey: CMakeFiles/odyssey.dir/src/useful_masks.cpp.o
 odyssey: CMakeFiles/odyssey.dir/src/valid.cpp.o
 odyssey: CMakeFiles/odyssey.dir/src/zobrist.cpp.o
 odyssey: CMakeFiles/odyssey.dir/build.make
 odyssey: CMakeFiles/odyssey.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/harry/CS/Odyssey/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking CXX executable odyssey"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/harry/CS/Odyssey/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking CXX executable odyssey"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/odyssey.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

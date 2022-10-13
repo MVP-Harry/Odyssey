@@ -43,6 +43,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/odyssey.dir/src/square_attacked.cpp.o.d"
   "CMakeFiles/odyssey.dir/src/undomove.cpp.o"
   "CMakeFiles/odyssey.dir/src/undomove.cpp.o.d"
+  "CMakeFiles/odyssey.dir/src/useful_constants.cpp.o"
+  "CMakeFiles/odyssey.dir/src/useful_constants.cpp.o.d"
   "CMakeFiles/odyssey.dir/src/useful_masks.cpp.o"
   "CMakeFiles/odyssey.dir/src/useful_masks.cpp.o.d"
   "CMakeFiles/odyssey.dir/src/valid.cpp.o"

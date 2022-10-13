@@ -657,6 +657,30 @@ src/undomove.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/odyssey.dir/build.make CMakeFiles/odyssey.dir/src/undomove.cpp.s
 .PHONY : src/undomove.cpp.s
 
+src/useful_constants.o: src/useful_constants.cpp.o
+.PHONY : src/useful_constants.o
+
+# target to build an object file
+src/useful_constants.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odyssey.dir/build.make CMakeFiles/odyssey.dir/src/useful_constants.cpp.o
+.PHONY : src/useful_constants.cpp.o
+
+src/useful_constants.i: src/useful_constants.cpp.i
+.PHONY : src/useful_constants.i
+
+# target to preprocess a source file
+src/useful_constants.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odyssey.dir/build.make CMakeFiles/odyssey.dir/src/useful_constants.cpp.i
+.PHONY : src/useful_constants.cpp.i
+
+src/useful_constants.s: src/useful_constants.cpp.s
+.PHONY : src/useful_constants.s
+
+# target to generate assembly for a file
+src/useful_constants.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odyssey.dir/build.make CMakeFiles/odyssey.dir/src/useful_constants.cpp.s
+.PHONY : src/useful_constants.cpp.s
+
 src/useful_masks.o: src/useful_masks.cpp.o
 .PHONY : src/useful_masks.o
 
@@ -804,6 +828,9 @@ help:
 	@echo "... src/undomove.o"
 	@echo "... src/undomove.i"
 	@echo "... src/undomove.s"
+	@echo "... src/useful_constants.o"
+	@echo "... src/useful_constants.i"
+	@echo "... src/useful_constants.s"
 	@echo "... src/useful_masks.o"
 	@echo "... src/useful_masks.i"
 	@echo "... src/useful_masks.s"

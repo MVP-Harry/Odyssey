@@ -30,6 +30,18 @@ constexpr const Square qsc_rook_to[] = {squares::D1, squares::D8};
 
 }  // namespace
 
+// useful search constants
+
+extern const int infinity;
+extern const int mate_value;
+extern const int mate_score;
+extern int mvv_lva[12][12];
+extern const int max_ply;
+extern int killer_moves[2][64];
+extern int pv_length[64];
+extern int pv_table[64][64];
+extern int follow_pv, score_pv;
+
 class Position {
    public:
     [[nodiscard]] Position() = default;
@@ -350,6 +362,13 @@ class Position {
 
     // check game phase score;
     int game_phase_score();
+
+    /*
+        SEARCH
+    */
+
+   // quiescence search
+   int quiescence(int alpha, int beta);
 
    private:
     void set(const Square sq, const Side s, const Piece p) noexcept {
