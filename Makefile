@@ -585,6 +585,30 @@ src/predict_hash.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/odyssey.dir/build.make CMakeFiles/odyssey.dir/src/predict_hash.cpp.s
 .PHONY : src/predict_hash.cpp.s
 
+src/quiescence.o: src/quiescence.cpp.o
+.PHONY : src/quiescence.o
+
+# target to build an object file
+src/quiescence.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odyssey.dir/build.make CMakeFiles/odyssey.dir/src/quiescence.cpp.o
+.PHONY : src/quiescence.cpp.o
+
+src/quiescence.i: src/quiescence.cpp.i
+.PHONY : src/quiescence.i
+
+# target to preprocess a source file
+src/quiescence.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odyssey.dir/build.make CMakeFiles/odyssey.dir/src/quiescence.cpp.i
+.PHONY : src/quiescence.cpp.i
+
+src/quiescence.s: src/quiescence.cpp.s
+.PHONY : src/quiescence.s
+
+# target to generate assembly for a file
+src/quiescence.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odyssey.dir/build.make CMakeFiles/odyssey.dir/src/quiescence.cpp.s
+.PHONY : src/quiescence.cpp.s
+
 src/set_fen.o: src/set_fen.cpp.o
 .PHONY : src/set_fen.o
 
@@ -608,6 +632,30 @@ src/set_fen.s: src/set_fen.cpp.s
 src/set_fen.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/odyssey.dir/build.make CMakeFiles/odyssey.dir/src/set_fen.cpp.s
 .PHONY : src/set_fen.cpp.s
+
+src/sort_moves.o: src/sort_moves.cpp.o
+.PHONY : src/sort_moves.o
+
+# target to build an object file
+src/sort_moves.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odyssey.dir/build.make CMakeFiles/odyssey.dir/src/sort_moves.cpp.o
+.PHONY : src/sort_moves.cpp.o
+
+src/sort_moves.i: src/sort_moves.cpp.i
+.PHONY : src/sort_moves.i
+
+# target to preprocess a source file
+src/sort_moves.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odyssey.dir/build.make CMakeFiles/odyssey.dir/src/sort_moves.cpp.i
+.PHONY : src/sort_moves.cpp.i
+
+src/sort_moves.s: src/sort_moves.cpp.s
+.PHONY : src/sort_moves.s
+
+# target to generate assembly for a file
+src/sort_moves.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odyssey.dir/build.make CMakeFiles/odyssey.dir/src/sort_moves.cpp.s
+.PHONY : src/sort_moves.cpp.s
 
 src/square_attacked.o: src/square_attacked.cpp.o
 .PHONY : src/square_attacked.o
@@ -819,9 +867,15 @@ help:
 	@echo "... src/predict_hash.o"
 	@echo "... src/predict_hash.i"
 	@echo "... src/predict_hash.s"
+	@echo "... src/quiescence.o"
+	@echo "... src/quiescence.i"
+	@echo "... src/quiescence.s"
 	@echo "... src/set_fen.o"
 	@echo "... src/set_fen.i"
 	@echo "... src/set_fen.s"
+	@echo "... src/sort_moves.o"
+	@echo "... src/sort_moves.i"
+	@echo "... src/sort_moves.s"
 	@echo "... src/square_attacked.o"
 	@echo "... src/square_attacked.i"
 	@echo "... src/square_attacked.s"

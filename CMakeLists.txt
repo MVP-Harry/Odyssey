@@ -37,6 +37,7 @@ set(SOURCE_FILES
     src/predict_hash.cpp
     src/quiescence.cpp
     src/set_fen.cpp
+    src/sort_moves.cpp
     src/square_attacked.cpp
     src/undomove.cpp
     src/useful_constants.cpp

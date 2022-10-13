@@ -367,8 +367,12 @@ class Position {
         SEARCH
     */
 
+   // sort moves
+   void sort_moves(std::vector<Move> move_list);
+
    // quiescence search
    int quiescence(int alpha, int beta);
+
 
    private:
     void set(const Square sq, const Side s, const Piece p) noexcept {
