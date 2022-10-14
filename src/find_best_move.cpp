@@ -1,12 +1,20 @@
 #include <libchess/position.hpp>
+#include <chrono>
 #include <iostream>
 #include <string.h>
 using namespace libchess;
+using namespace std::chrono;
 
-void Position::find_best_move(int depth) {
+Move Position::find_best_move(int depth) {
+    nodes = 0;
     int score = 0;
+
+    milliseconds starttime = duration_cast<milliseconds> (
+        system_clock::now().time_since_epoch()
+    );
     
     // resetting stuff
+    ply = 0;
     follow_pv = 0;
     score_pv = 0;
     memset(pv_length, 0, sizeof(pv_length));
@@ -37,21 +45,39 @@ void Position::find_best_move(int depth) {
         alpha = score - 50;
         beta = score + 50;
 
-        // if (pv_length[0])
-        // {
-        //     printf("#################\n");
-        //     std::cout << "BEST CONTINUATION" << std::endl;
-        //     printf("#################\n");
-        //     for (int count = 0; count < pv_length[0]; count++) {
-        //         // print PV move
-        //         std::cout << (pv_table[0][count]) << " ";
-        //     }
-        //     std::cout << "\n";
-        // }
+        if (pv_length[0])
+        {
+            
+            milliseconds nowtime = duration_cast<milliseconds> (
+                system_clock::now().time_since_epoch()
+            );
+            // print search info
+            if (score > -mate_value && score < -mate_score)
+                printf("info score mate %d depth %d nodes %lld time %d pv ", -(score + mate_value) / 2 - 1, current_depth, nodes, nowtime - starttime);
+            
+            else if (score > mate_score && score < mate_value)
+                printf("info score mate %d depth %d nodes %lld time %d pv ", (mate_value - score) / 2 + 1, current_depth, nodes, nowtime - starttime);   
+            
+            else
+                printf("info score cp %d depth %d nodes %lld time %d pv ", score, current_depth, nodes, nowtime - starttime);
+            
+            // loop over the moves within a PV line
+            for (int count = 0; count < pv_length[0]; count++)
+            {
+                // print PV move
+                pv_table[0][count].print_move();
+                printf(" ");
+            }
+            
+            // print new line
+            printf("\n");
+        }
     }
     
-    printf("###############\n");
-    std::cout << "BEST MOVE IS" << std::endl;
-    std::cout << pv_table[0][0] << std::endl;
-    printf("###############\n");
+    // printf("###############\n");
+    // std::cout << "BEST MOVE IS" << std::endl;
+    // pv_table[0][0].print_move();
+    // printf("###############\n");
+
+    return pv_table[0][0];
 }

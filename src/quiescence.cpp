@@ -9,12 +9,14 @@ int Position::quiescence(int alpha, int beta) {
     // evaluate position
     int evaluation = evaluate();
 
-    if (halfmoves() > max_ply) return evaluation;
+    if (ply > max_ply) return evaluation;
 
     if (evaluation >= beta) {
         // node fails-high
         return beta;
     }
+
+    nodes++;
 
     if (evaluation > alpha) {
         // found a better move
@@ -28,12 +30,14 @@ int Position::quiescence(int alpha, int beta) {
     sort_moves(move_list);
 
     for (auto move : move_list) {
+        ply++;
         makemove(move);
 
         // similar to the idea of negamax
         int score = -quiescence(-beta, -alpha);
 
         undomove();
+        ply--;
 
         if (score >= beta)
             return beta;

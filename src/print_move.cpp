@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace libchess;
 
-void Move::print_move() {
+std::string Move::print_move() {
     std::string notation;
 
     std::string piece_name = " NBRQK";
@@ -33,5 +33,5 @@ void Move::print_move() {
         notation += std::string(to);
     }
 
-    std::cout << notation << std::endl;
+    return notation;
 }

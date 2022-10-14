@@ -164,7 +164,7 @@ class Move {
         return type() == MoveType::promo || type() == MoveType::promo_capture;
     }
 
-    void print_move();
+    std::string print_move();
 
    private:
     std::uint32_t data_ = 0;

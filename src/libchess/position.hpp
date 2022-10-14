@@ -363,7 +363,8 @@ class Position {
     int pv_length[64];
     Move pv_table[64][64];
     int his_moves[12][64];
-    int follow_pv, score_pv;
+    int follow_pv, score_pv, ply;
+    long long nodes;
 
    // score moves, important in deciding what move to consider first in alpha-beta search
     int score_move(Move move);
@@ -392,7 +393,7 @@ class Position {
     int negamax(int alpha, int beta, int depth);
 
     // FINDING THE BEST MOVE!
-    void find_best_move(int depth);
+    Move find_best_move(int depth);
 
    private:
     void set(const Square sq, const Side s, const Piece p) noexcept {

@@ -4,7 +4,7 @@ using namespace libchess;
 
 int Position::score_move(Move move) {
     if (score_pv) {
-        if (pv_table[0][halfmoves()] == move) {
+        if (pv_table[0][ply] == move) {
             // disable score PV flag and give this move the highest priority
             score_pv = 0;
             return 20000;
@@ -16,7 +16,6 @@ int Position::score_move(Move move) {
     }
 
     else {
-        int ply = halfmoves();
         if (killer_moves[0][ply] == move) return 9000;
         else if (killer_moves[1][ply] == move) return 8000;
         else return his_moves[(int) move.piece()][(int) move.to()];
@@ -30,7 +29,6 @@ void Position::enable_pv_scoring(std::vector<Move> move_list) {
     // disable following pv
     follow_pv = 0;
 
-    int ply = halfmoves();
     for (auto move : move_list) {
         if (pv_table[0][ply] == move) {
             score_pv = 1;
