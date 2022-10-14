@@ -3,4 +3,6 @@
 
 void command_line_help();
 
+void command_line_analyze();
+
 #endif

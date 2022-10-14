@@ -52,16 +52,10 @@ Move Position::find_best_move(int depth) {
                 system_clock::now().time_since_epoch()
             );
             // print search info
-            if (score > -mate_value && score < -mate_score)
-                printf("info score mate %d depth %d nodes %lld time %d pv ", -(score + mate_value) / 2 - 1, current_depth, nodes, nowtime - starttime);
+            long long total_time = (nowtime - starttime).count();
+            printf("Evaluation: %.2f\nDepth: %d\nNodes: %lld\nTime (s): %.3f\nBest Continuation:\n", 
+                    (double) score / (100.0), current_depth, nodes, (double) total_time / 1000.0);
             
-            else if (score > mate_score && score < mate_value)
-                printf("info score mate %d depth %d nodes %lld time %d pv ", (mate_value - score) / 2 + 1, current_depth, nodes, nowtime - starttime);   
-            
-            else
-                printf("info score cp %d depth %d nodes %lld time %d pv ", score, current_depth, nodes, nowtime - starttime);
-            
-            std::cout << std::endl;
             // loop over the moves within a PV line
             for (int count = 0; count < pv_length[0]; count++)
             {
@@ -69,14 +63,15 @@ Move Position::find_best_move(int depth) {
                 std::cout << pv_table[0][count].print_move() << " ";
             }
             std::cout << std::endl;
+            std::cout << std::endl;
             
         }
     }
     
-    // printf("###############\n");
-    // std::cout << "BEST MOVE IS" << std::endl;
-    // pv_table[0][0].print_move();
-    // printf("###############\n");
+    printf("###############\n");
+    std::cout << "BEST MOVE IS" << std::endl;
+    std::cout << pv_table[0][0].print_move() << std::endl;
+    printf("###############\n");
 
     return pv_table[0][0];
 }

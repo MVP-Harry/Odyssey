@@ -1,5 +1,9 @@
 #include <iostream>
+#include <string>
+#include <sstream>
+#include <libchess/position.hpp>
 #include <libchess/command_line_help.hpp>
+using namespace libchess;
 
 void command_line_help() {
     std::cout << R"(
@@ -16,9 +20,34 @@ void command_line_help() {
     std::cout << "-----------------------------------------------------" << std::endl;
 
 
-    std::cout << "Enter commands to continue:" << std::endl;
-    std::cout << "Analyze (A) - Odyssey will analyze a given position at specified depth (8 by default)" << std::endl;
-    std::cout << "Display (D) - Odyssey will display the current position (starting position by default)" << std::endl;
-    std::cout << "Help (H) - Odyssey will display help message" << std::endl;
-    std::cout << "New (N) - Odyssey will start new game" << std::endl;
+    std::cout << "Enter the position to analyze:" << std::endl;
+
+    std::string user_input;
+    std::getline(std::cin, user_input);
+
+    std::stringstream ss(user_input);
+    std::string temp, fen;
+    bool first_time = true;
+    while (ss >> temp) {
+        if (first_time) first_time = false;
+        else fen += " ";
+        fen += temp;
+    }
+
+    Position pos = Position(fen);
+
+    std::cout << "-----------------------------------------------------" << std::endl;
+    std::cout << "Enter the depth:" << std::endl;
+    int depth;
+    std::cin >> depth;
+    if (depth > 12) std::cout << "Might take a long time..." << std::endl;
+    std::cout << "Calculating..." << std::endl;
+    std::cout << "-----------------------------------------------------" << std::endl;
+
+    pos.find_best_move(depth);
+
+}
+
+void command_line_anaylze() {
+
 }

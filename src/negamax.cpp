@@ -18,6 +18,12 @@ int Position::negamax(int alpha, int beta, int depth) {
         return evaluate();
 
     nodes++;
+
+    if (nodes > 200000000) {
+        std::cout << "TOO MANY NODES" << std::endl;
+        std::cout << "BREAKING...";
+        exit(0);
+    }
     
     // if in check, increase the depth by 1
     if (in_check()) depth++;

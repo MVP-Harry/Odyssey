@@ -809,6 +809,25 @@ CMakeFiles/odyssey.dir/src/command_line_help.cpp.o: src/command_line_help.cpp \
   /usr/include/c++/12.2.0/bits/ostream.tcc \
   /usr/include/c++/12.2.0/istream \
   /usr/include/c++/12.2.0/bits/istream.tcc \
+  /usr/include/c++/12.2.0/sstream \
+  /usr/include/c++/12.2.0/bits/sstream.tcc \
+  src/libchess/position.hpp \
+  /usr/include/c++/12.2.0/vector \
+  /usr/include/c++/12.2.0/bits/stl_uninitialized.h \
+  /usr/include/c++/12.2.0/bits/stl_vector.h \
+  /usr/include/c++/12.2.0/bits/stl_bvector.h \
+  /usr/include/c++/12.2.0/bits/vector.tcc \
+  src/libchess/bitboard.hpp \
+  /usr/include/c++/12.2.0/array \
+  /usr/include/c++/12.2.0/bit \
+  /usr/include/c++/12.2.0/cassert \
+  /usr/include/assert.h \
+  src/libchess/square.hpp \
+  src/libchess/move.hpp \
+  src/libchess/piece.hpp \
+  src/libchess/side.hpp \
+  src/libchess/zobrist.hpp \
+  src/libchess/useful_constants.hpp \
   src/libchess/command_line_help.hpp
 
 CMakeFiles/odyssey.dir/src/count_moves.cpp.o: src/count_moves.cpp \
@@ -6676,6 +6695,10 @@ src/command_line_help.cpp:
 
 /usr/include/c++/12.2.0/bits/istream.tcc:
 
+src/libchess/useful_constants.hpp:
+
+/usr/include/c++/12.2.0/sstream:
+
 src/find_best_move.cpp:
 
 /usr/include/c++/12.2.0/ratio:
@@ -6695,10 +6718,6 @@ src/pinned.cpp:
 /usr/include/c++/12.2.0/ctime:
 
 /usr/include/c++/12.2.0/bits/parse_numbers.h:
-
-src/libchess/useful_constants.hpp:
-
-/usr/include/c++/12.2.0/sstream:
 
 /usr/include/string.h:
 

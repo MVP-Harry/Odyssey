@@ -23,7 +23,7 @@ int main(int argc, char **argv) {
     Display help
     */
 
-    // command_line_help();
+    command_line_help();
 
     /*
     argc is the number of arguments that the main function takes
@@ -64,12 +64,12 @@ int main(int argc, char **argv) {
 
     // move.print_move();
 
-    auto pos = libchess::Position(tricky_position);
-    Move move = pos.find_best_move(8);
-    std::cout << "#################\n";
-    std::cout << "BEST MOVE IS\n";
-    std::cout << move.print_move() << std::endl;
-    std::cout << "#################\n";
+    // auto pos = libchess::Position(tricky_position);
+    // Move move = pos.find_best_move(8);
+    // std::cout << "#################\n";
+    // std::cout << "BEST MOVE IS\n";
+    // std::cout << move.print_move() << std::endl;
+    // std::cout << "#################\n";
 
     // pos.negamax(-infinity, infinity, 2);
 
