@@ -41,6 +41,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/odyssey.dir/src/pinned.cpp.o.d"
   "CMakeFiles/odyssey.dir/src/predict_hash.cpp.o"
   "CMakeFiles/odyssey.dir/src/predict_hash.cpp.o.d"
+  "CMakeFiles/odyssey.dir/src/print_move.cpp.o"
+  "CMakeFiles/odyssey.dir/src/print_move.cpp.o.d"
   "CMakeFiles/odyssey.dir/src/quiescence.cpp.o"
   "CMakeFiles/odyssey.dir/src/quiescence.cpp.o.d"
   "CMakeFiles/odyssey.dir/src/set_fen.cpp.o"

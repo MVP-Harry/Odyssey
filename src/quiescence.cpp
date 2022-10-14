@@ -2,10 +2,10 @@
 #include <iostream>
 using namespace libchess;
 
-int Position::quiescence(int alpha, int beta, int& node) {
-    if (node > 10000) exit(0);
-    std::cout << alpha << " " << beta << std::endl;
-    node++;
+int Position::quiescence(int alpha, int beta) {
+    // if (node > 10000) exit(0);
+    // std::cout << alpha << " " << beta << std::endl;
+    // node++;
     // evaluate position
     int evaluation = evaluate();
 
@@ -31,7 +31,7 @@ int Position::quiescence(int alpha, int beta, int& node) {
         makemove(move);
 
         // similar to the idea of negamax
-        int score = -quiescence(-beta, -alpha, node);
+        int score = -quiescence(-beta, -alpha);
 
         undomove();
 

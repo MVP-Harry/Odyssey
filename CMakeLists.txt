@@ -37,6 +37,7 @@ set(SOURCE_FILES
     src/piece_square_table.cpp
     src/pinned.cpp
     src/predict_hash.cpp
+    src/print_move.cpp
     src/quiescence.cpp
     src/set_fen.cpp
     src/sort_moves.cpp

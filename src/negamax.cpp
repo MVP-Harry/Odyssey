@@ -13,7 +13,7 @@ int Position::negamax(int alpha, int beta, int depth) {
     // run quiescence search to stablize alpha-beta
     if (depth == 0) {
         int node = 0;
-        return quiescence(alpha, beta, node);
+        return quiescence(alpha, beta);
     }
     
     // if exceeds max_ply

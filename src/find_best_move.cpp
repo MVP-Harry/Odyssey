@@ -27,8 +27,6 @@ void Position::find_best_move(int depth) {
         follow_pv = 1;
         score = negamax(alpha, beta, current_depth);
 
-        std::cout << "HELLO" << std::endl;
-
         if ((score <= alpha) || (score >= beta)) {
             alpha = -infinity;    
             beta = infinity;      
@@ -39,17 +37,17 @@ void Position::find_best_move(int depth) {
         alpha = score - 50;
         beta = score + 50;
 
-        if (pv_length[0])
-        {
-            printf("#################\n");
-            std::cout << "BEST CONTINUATION" << std::endl;
-            printf("#################\n");
-            for (int count = 0; count < pv_length[0]; count++) {
-                // print PV move
-                std::cout << (pv_table[0][count]) << " ";
-            }
-            std::cout << "\n";
-        }
+        // if (pv_length[0])
+        // {
+        //     printf("#################\n");
+        //     std::cout << "BEST CONTINUATION" << std::endl;
+        //     printf("#################\n");
+        //     for (int count = 0; count < pv_length[0]; count++) {
+        //         // print PV move
+        //         std::cout << (pv_table[0][count]) << " ";
+        //     }
+        //     std::cout << "\n";
+        // }
     }
     
     printf("###############\n");

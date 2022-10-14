@@ -386,7 +386,7 @@ class Position {
     void sort_moves(std::vector<Move>& move_list);
 
    // quiescence search
-    int quiescence(int alpha, int beta, int& node);
+    int quiescence(int alpha, int beta);
 
     // implement alpha-beta search using the negamax framework
     int negamax(int alpha, int beta, int depth);

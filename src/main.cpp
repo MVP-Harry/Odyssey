@@ -52,10 +52,9 @@ int main(int argc, char **argv) {
     std::cout << pos << std::endl;
     std::cout << std::endl;
 
-    // int evaluation_score = pos.evaluate();
-    // std::cout << evaluation_score << std::endl;
 
-    pos.negamax(-infinity, infinity, 2);
+    pos.find_best_move(10);
+    // pos.negamax(-infinity, infinity, 2);
 
     return 0;
 }

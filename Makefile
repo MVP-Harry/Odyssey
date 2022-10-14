@@ -633,6 +633,30 @@ src/predict_hash.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/odyssey.dir/build.make CMakeFiles/odyssey.dir/src/predict_hash.cpp.s
 .PHONY : src/predict_hash.cpp.s
 
+src/print_move.o: src/print_move.cpp.o
+.PHONY : src/print_move.o
+
+# target to build an object file
+src/print_move.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odyssey.dir/build.make CMakeFiles/odyssey.dir/src/print_move.cpp.o
+.PHONY : src/print_move.cpp.o
+
+src/print_move.i: src/print_move.cpp.i
+.PHONY : src/print_move.i
+
+# target to preprocess a source file
+src/print_move.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odyssey.dir/build.make CMakeFiles/odyssey.dir/src/print_move.cpp.i
+.PHONY : src/print_move.cpp.i
+
+src/print_move.s: src/print_move.cpp.s
+.PHONY : src/print_move.s
+
+# target to generate assembly for a file
+src/print_move.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odyssey.dir/build.make CMakeFiles/odyssey.dir/src/print_move.cpp.s
+.PHONY : src/print_move.cpp.s
+
 src/quiescence.o: src/quiescence.cpp.o
 .PHONY : src/quiescence.o
 
@@ -921,6 +945,9 @@ help:
 	@echo "... src/predict_hash.o"
 	@echo "... src/predict_hash.i"
 	@echo "... src/predict_hash.s"
+	@echo "... src/print_move.o"
+	@echo "... src/print_move.i"
+	@echo "... src/print_move.s"
 	@echo "... src/quiescence.o"
 	@echo "... src/quiescence.i"
 	@echo "... src/quiescence.s"
