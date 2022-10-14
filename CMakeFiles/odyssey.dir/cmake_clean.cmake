@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/odyssey.dir/src/check_evasions.cpp.o.d"
   "CMakeFiles/odyssey.dir/src/checkers.cpp.o"
   "CMakeFiles/odyssey.dir/src/checkers.cpp.o.d"
+  "CMakeFiles/odyssey.dir/src/command_line_help.cpp.o"
+  "CMakeFiles/odyssey.dir/src/command_line_help.cpp.o.d"
   "CMakeFiles/odyssey.dir/src/count_moves.cpp.o"
   "CMakeFiles/odyssey.dir/src/count_moves.cpp.o.d"
   "CMakeFiles/odyssey.dir/src/evaluate.cpp.o"

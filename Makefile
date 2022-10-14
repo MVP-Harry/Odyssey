@@ -201,6 +201,30 @@ src/checkers.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/odyssey.dir/build.make CMakeFiles/odyssey.dir/src/checkers.cpp.s
 .PHONY : src/checkers.cpp.s
 
+src/command_line_help.o: src/command_line_help.cpp.o
+.PHONY : src/command_line_help.o
+
+# target to build an object file
+src/command_line_help.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odyssey.dir/build.make CMakeFiles/odyssey.dir/src/command_line_help.cpp.o
+.PHONY : src/command_line_help.cpp.o
+
+src/command_line_help.i: src/command_line_help.cpp.i
+.PHONY : src/command_line_help.i
+
+# target to preprocess a source file
+src/command_line_help.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odyssey.dir/build.make CMakeFiles/odyssey.dir/src/command_line_help.cpp.i
+.PHONY : src/command_line_help.cpp.i
+
+src/command_line_help.s: src/command_line_help.cpp.s
+.PHONY : src/command_line_help.s
+
+# target to generate assembly for a file
+src/command_line_help.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odyssey.dir/build.make CMakeFiles/odyssey.dir/src/command_line_help.cpp.s
+.PHONY : src/command_line_help.cpp.s
+
 src/count_moves.o: src/count_moves.cpp.o
 .PHONY : src/count_moves.o
 
@@ -891,6 +915,9 @@ help:
 	@echo "... src/checkers.o"
 	@echo "... src/checkers.i"
 	@echo "... src/checkers.s"
+	@echo "... src/command_line_help.o"
+	@echo "... src/command_line_help.i"
+	@echo "... src/command_line_help.s"
 	@echo "... src/count_moves.o"
 	@echo "... src/count_moves.i"
 	@echo "... src/count_moves.s"

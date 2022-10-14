@@ -19,6 +19,7 @@ set(SOURCE_FILES
     src/attackers.cpp
     src/check_evasions.cpp
     src/checkers.cpp
+    src/command_line_help.cpp
     src/count_moves.cpp
     src/evaluate.cpp
     src/find_best_move.cpp
