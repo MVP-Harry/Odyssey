@@ -1,7 +1,9 @@
 #include <libchess/position.hpp>
+#include <iostream>
 using namespace libchess;
 
 int Position::negamax(int alpha, int beta, int depth) {
+    // std::cout << alpha << " " << beta << " " << depth << std::endl;
     int ply = halfmoves();
     int score = 0;
     
@@ -9,15 +11,17 @@ int Position::negamax(int alpha, int beta, int depth) {
     pv_length[ply] = ply;
 
     // run quiescence search to stablize alpha-beta
-    if (depth == 0)
-        return quiescence(alpha, beta);
-
+    if (depth == 0) {
+        int node = 0;
+        return quiescence(alpha, beta, node);
+    }
+    
     // if exceeds max_ply
     if (ply >= max_ply)
         return evaluate();
     
     // if in check, increase the depth by 1
-    if (in_check) depth++;
+    if (in_check()) depth++;
 
     // TODO: null-move pruning
     // TODO: hashing alpha-beta search

@@ -151,4 +151,5 @@ CMakeFiles/odyssey.dir/src/game_phase_score.cpp.o: \
  /home/harry/CS/Odyssey/./src/libchess/piece.hpp \
  /home/harry/CS/Odyssey/./src/libchess/side.hpp \
  /home/harry/CS/Odyssey/./src/libchess/zobrist.hpp \
+ /home/harry/CS/Odyssey/./src/libchess/useful_constants.hpp \
  /home/harry/CS/Odyssey/./src/libchess/piece_square_table.hpp

@@ -166,4 +166,5 @@ CMakeFiles/odyssey.dir/src/is_legal.cpp.o: \
  /home/harry/CS/Odyssey/src/libchess/move.hpp \
  /home/harry/CS/Odyssey/src/libchess/piece.hpp \
  /home/harry/CS/Odyssey/src/libchess/side.hpp \
- /home/harry/CS/Odyssey/src/libchess/zobrist.hpp
+ /home/harry/CS/Odyssey/src/libchess/zobrist.hpp \
+ /home/harry/CS/Odyssey/src/libchess/useful_constants.hpp

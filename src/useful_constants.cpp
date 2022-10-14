@@ -1,5 +1,4 @@
-#include <libchess/position.hpp>
-using namespace libchess;
+#include <libchess/useful_constants.hpp>
 
 const int infinity = 50000;
 const int mate_value = 49000;

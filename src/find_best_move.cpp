@@ -27,6 +27,8 @@ void Position::find_best_move(int depth) {
         follow_pv = 1;
         score = negamax(alpha, beta, current_depth);
 
+        std::cout << "HELLO" << std::endl;
+
         if ((score <= alpha) || (score >= beta)) {
             alpha = -infinity;    
             beta = infinity;      

@@ -10,6 +10,7 @@
 #include "piece.hpp"
 #include "side.hpp"
 #include "zobrist.hpp"
+#include "useful_constants.hpp"
 
 namespace libchess {
 
@@ -29,16 +30,6 @@ constexpr const Square ksc_rook_to[] = {squares::F1, squares::F8};
 constexpr const Square qsc_rook_to[] = {squares::D1, squares::D8};
 
 }  // namespace
-
-// useful search constants
-
-extern const int infinity;
-extern const int mate_value;
-extern const int mate_score;
-extern int mvv_lva[12][12];
-extern const int max_ply;
-extern const int full_depth_moves;
-extern const int reduction_limit;
 
 class Position {
    public:
@@ -395,7 +386,7 @@ class Position {
     void sort_moves(std::vector<Move>& move_list);
 
    // quiescence search
-    int quiescence(int alpha, int beta);
+    int quiescence(int alpha, int beta, int& node);
 
     // implement alpha-beta search using the negamax framework
     int negamax(int alpha, int beta, int depth);

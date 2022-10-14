@@ -152,4 +152,5 @@ CMakeFiles/odyssey.dir/src/legal_captures.cpp.o: \
  /home/harry/CS/Odyssey/src/libchess/piece.hpp \
  /home/harry/CS/Odyssey/src/libchess/side.hpp \
  /home/harry/CS/Odyssey/src/libchess/zobrist.hpp \
+ /home/harry/CS/Odyssey/src/libchess/useful_constants.hpp \
  /home/harry/CS/Odyssey/src/libchess/square.hpp

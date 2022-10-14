@@ -249,6 +249,30 @@ src/evaluate.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/odyssey.dir/build.make CMakeFiles/odyssey.dir/src/evaluate.cpp.s
 .PHONY : src/evaluate.cpp.s
 
+src/find_best_move.o: src/find_best_move.cpp.o
+.PHONY : src/find_best_move.o
+
+# target to build an object file
+src/find_best_move.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odyssey.dir/build.make CMakeFiles/odyssey.dir/src/find_best_move.cpp.o
+.PHONY : src/find_best_move.cpp.o
+
+src/find_best_move.i: src/find_best_move.cpp.i
+.PHONY : src/find_best_move.i
+
+# target to preprocess a source file
+src/find_best_move.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odyssey.dir/build.make CMakeFiles/odyssey.dir/src/find_best_move.cpp.i
+.PHONY : src/find_best_move.cpp.i
+
+src/find_best_move.s: src/find_best_move.cpp.s
+.PHONY : src/find_best_move.s
+
+# target to generate assembly for a file
+src/find_best_move.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odyssey.dir/build.make CMakeFiles/odyssey.dir/src/find_best_move.cpp.s
+.PHONY : src/find_best_move.cpp.s
+
 src/game_phase_score.o: src/game_phase_score.cpp.o
 .PHONY : src/game_phase_score.o
 
@@ -488,6 +512,30 @@ src/movegen.s: src/movegen.cpp.s
 src/movegen.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/odyssey.dir/build.make CMakeFiles/odyssey.dir/src/movegen.cpp.s
 .PHONY : src/movegen.cpp.s
+
+src/negamax.o: src/negamax.cpp.o
+.PHONY : src/negamax.o
+
+# target to build an object file
+src/negamax.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odyssey.dir/build.make CMakeFiles/odyssey.dir/src/negamax.cpp.o
+.PHONY : src/negamax.cpp.o
+
+src/negamax.i: src/negamax.cpp.i
+.PHONY : src/negamax.i
+
+# target to preprocess a source file
+src/negamax.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odyssey.dir/build.make CMakeFiles/odyssey.dir/src/negamax.cpp.i
+.PHONY : src/negamax.cpp.i
+
+src/negamax.s: src/negamax.cpp.s
+.PHONY : src/negamax.s
+
+# target to generate assembly for a file
+src/negamax.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odyssey.dir/build.make CMakeFiles/odyssey.dir/src/negamax.cpp.s
+.PHONY : src/negamax.cpp.s
 
 src/perft.o: src/perft.cpp.o
 .PHONY : src/perft.o
@@ -825,6 +873,9 @@ help:
 	@echo "... src/evaluate.o"
 	@echo "... src/evaluate.i"
 	@echo "... src/evaluate.s"
+	@echo "... src/find_best_move.o"
+	@echo "... src/find_best_move.i"
+	@echo "... src/find_best_move.s"
 	@echo "... src/game_phase_score.o"
 	@echo "... src/game_phase_score.i"
 	@echo "... src/game_phase_score.s"
@@ -855,6 +906,9 @@ help:
 	@echo "... src/movegen.o"
 	@echo "... src/movegen.i"
 	@echo "... src/movegen.s"
+	@echo "... src/negamax.o"
+	@echo "... src/negamax.i"
+	@echo "... src/negamax.s"
 	@echo "... src/perft.o"
 	@echo "... src/perft.i"
 	@echo "... src/perft.s"

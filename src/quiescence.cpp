@@ -1,9 +1,15 @@
 #include <libchess/position.hpp>
+#include <iostream>
 using namespace libchess;
 
-int Position::quiescence(int alpha, int beta) {
+int Position::quiescence(int alpha, int beta, int& node) {
+    if (node > 10000) exit(0);
+    std::cout << alpha << " " << beta << std::endl;
+    node++;
     // evaluate position
     int evaluation = evaluate();
+
+    if (halfmoves() > max_ply) return evaluation;
 
     if (evaluation >= beta) {
         // node fails-high
@@ -16,7 +22,7 @@ int Position::quiescence(int alpha, int beta) {
     }
 
     // create a list of legal moves
-    std::vector<Move> move_list = legal_moves();
+    std::vector<Move> move_list = legal_captures();
 
     // sort moves
     sort_moves(move_list);
@@ -25,15 +31,14 @@ int Position::quiescence(int alpha, int beta) {
         makemove(move);
 
         // similar to the idea of negamax
-        int score = -quiescence(-beta, -alpha);
+        int score = -quiescence(-beta, -alpha, node);
 
         undomove();
 
-        if (score > alpha) {
+        if (score >= beta)
+            return beta;
+        if (score > alpha)
             alpha = score;
-            if (score >= beta)
-                return beta;
-        }
     }
 
     return alpha;

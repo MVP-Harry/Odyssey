@@ -27,7 +27,7 @@ int Position::evaluate() {
     else if (phase_score < endgame_phase_score) game_phase = endgame;
     else game_phase = middlegame;
 
-    std::cout << "Current game phase is: " << game_phase << std::endl;
+    // std::cout << "Current game phase is: " << game_phase << std::endl;
 
     // for the white pieces
     for (int current_piece = Pawn; current_piece <= King; current_piece++) {
