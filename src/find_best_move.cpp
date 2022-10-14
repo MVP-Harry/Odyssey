@@ -61,16 +61,15 @@ Move Position::find_best_move(int depth) {
             else
                 printf("info score cp %d depth %d nodes %lld time %d pv ", score, current_depth, nodes, nowtime - starttime);
             
+            std::cout << std::endl;
             // loop over the moves within a PV line
             for (int count = 0; count < pv_length[0]; count++)
             {
                 // print PV move
-                pv_table[0][count].print_move();
-                printf(" ");
+                std::cout << pv_table[0][count].print_move() << " ";
             }
+            std::cout << std::endl;
             
-            // print new line
-            printf("\n");
         }
     }
     
