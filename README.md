@@ -11,7 +11,7 @@ Odyssey is a chess engine written in c++, and is the successor of [Ophelia](http
 * Capable of analyzing a position given by the Forsyth–Edwards Notation (FEN)
 
 ### Technical Details
-* There are four essential parts to every chess engine: board representation, move generation, evaluation function, and search/pruning algorithms
+* There are four essential parts to Odyssey: board representation, move generation, evaluation function, and search/pruning algorithms
 * See "Technical Specifications.pdf" for details on how Odyssey is built
 
 ### Future Improvements
