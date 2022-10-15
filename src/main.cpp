@@ -17,22 +17,5 @@ int main(int argc, char **argv) {
     // command_line_help();
 
     // testing
-    std::fstream input("test_elo.txt");
-
-    for (int i = 0; i < 30; i++) {
-        std::string user_input;
-        std::getline(input, user_input);
-
-        std::stringstream ss(user_input);
-        std::string temp, fen;
-        bool first_time = true;
-        while (ss >> temp) {
-            if (first_time) first_time = false;
-            else fen += " ";
-            fen += temp;
-        }
-
-        std::cout << fen << std::endl;
-    }
     return 0;
 }

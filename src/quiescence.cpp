@@ -18,16 +18,20 @@ int Position::quiescence(int alpha, int beta) {
 
     nodes++;
 
-    if ((nodes & 8191) == 0) {
-        milliseconds nowtime = duration_cast<milliseconds> (
-            system_clock::now().time_since_epoch()
-        );
-        // print search info
-        long long total_time = (nowtime - starttime).count();
-
-        if (time_limit != -1 && total_time > (long long) 1000 * time_limit)
-            return 0;
+    if (nodes > 15000000) {
+        return 0;
     }
+
+    // if ((nodes & 8191) == 0) {
+    //     milliseconds nowtime = duration_cast<milliseconds> (
+    //         system_clock::now().time_since_epoch()
+    //     );
+    //     // print search info
+    //     long long total_time = (nowtime - starttime).count();
+
+    //     if (time_limit != -1 && total_time > (long long) 1000 * time_limit)
+    //         return 0;
+    // }
 
     if (evaluation > alpha) {
         // found a better move

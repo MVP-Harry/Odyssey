@@ -1,0 +1,1861 @@
+---------------------------
+PUZZLE #1
+Evaluation: 2.41
+Depth: 2
+Nodes: 127
+Time (s): 0.002
+Best Continuation:
+Nxg7 Re7
+
+Evaluation: 2.08
+Depth: 3
+Nodes: 795
+Time (s): 0.008
+Best Continuation:
+Nxg7 Rf8 g6
+
+Evaluation: 2.08
+Depth: 4
+Nodes: 1855
+Time (s): 0.025
+Best Continuation:
+Nxg7 Rf8 g6 Kxg7
+
+Evaluation: 1.99
+Depth: 5
+Nodes: 8244
+Time (s): 0.107
+Best Continuation:
+Nxg7 Rf8 g6 fxg6 Qxf8
+
+Evaluation: 2.85
+Depth: 7
+Nodes: 95405
+Time (s): 1.322
+Best Continuation:
+Nxg7 Bxg7 Qxf7 Kh8 Qh5 Kg8 Qf7 Kh8 Qh5 Kg8 Qf7
+
+Evaluation: 3.02
+Depth: 8
+Nodes: 447508
+Time (s): 6.294
+Best Continuation:
+Nxg7 Kxg7 Qxf7 Kh8 Qh5 Kg8 Qf7 Kh8 Qh5 Kg8 Qf7 Kh8 Qf2
+
+Evaluation: 3.02
+Depth: 9
+Nodes: 1814917
+Time (s): 25.419
+Best Continuation:
+Nxg7 Kxg7 Qxf7 Kh8 Qh5 Kg8 Qf7 Kh8 Rf2 Bd4 Qh5 Kg8 Qg6
+
+ Evaluation: 3.02
+Depth: 10
+Nodes: 10120274
+Time (s): 144.604
+Best Continuation:
+Nxg7 Kxg7 Qxf7 Kh8 Qh5 Kg8 Qf7 Kh8 Qh5 Kg8 Qf7 Kh8 Qh5 Kg8 Qf7 Kh8 Qf2
+
+###############
+BEST MOVE IS
+Nxg7
+###############
+---------------------------
+PUZZLE #2
+Evaluation: -1.22
+Depth: 2
+Nodes: 63
+Time (s): 0.000
+Best Continuation:
+Be3 Kg7
+
+Evaluation: -1.01
+Depth: 3
+Nodes: 175
+Time (s): 0.001
+Best Continuation:
+Be3 e4 fxe4
+
+Evaluation: -0.99
+Depth: 4
+Nodes: 1026
+Time (s): 0.008
+Best Continuation:
+Bc3 e4 fxe4 Bxg3
+
+Evaluation: -0.99
+Depth: 5
+Nodes: 1960
+Time (s): 0.016
+Best Continuation:
+Bc3 e4 fxe4 Bxg3 hxg3
+
+Evaluation: -0.67
+Depth: 6
+Nodes: 5809
+Time (s): 0.052
+Best Continuation:
+Be3 Kg7 Kg2 Kf6 b5 a5
+
+Evaluation: -0.57
+Depth: 7
+Nodes: 10954
+Time (s): 0.104
+Best Continuation:
+Be3 Kg7 Kg2 Kf6 b5 axb5 axb5
+
+Evaluation: -0.57
+Depth: 8
+Nodes: 31232
+Time (s): 0.306
+Best Continuation:
+Be3 Kf8 Kg2 Ke7 b5 axb5 axb5 Kf6
+
+Evaluation: -0.54
+Depth: 9
+Nodes: 84930
+Time (s): 0.837
+Best Continuation:
+Be3 Kf8 Kg2 Kg7 b5 a5 Bg5 Bd6 Kf2
+
+Evaluation: -0.48
+Depth: 10
+Nodes: 220747
+Time (s): 2.160
+Best Continuation:
+Be3 Kf8 Kg2 Kg7 b5 a5 Kf2 Kf6 Kg2 Kf5
+
+Evaluation: -0.55
+Depth: 11
+Nodes: 1072381
+Time (s): 10.692
+Best Continuation:
+Be3 Kg7 b5 a5 Kg2 Kf6 Kg1 Kg7 Kg2 Kf6 Kf2
+
+Evaluation: -0.55
+Depth: 12
+Nodes: 6133777
+Time (s): 59.099
+Best Continuation:
+Be3 Kg7 Bg5 Kf8 Be3 Kg8 Kg2 Kg7 Kf2 Kf6 b5 a5
+
+###############
+BEST MOVE IS
+Be3
+###############
+---------------------------
+PUZZLE #3
+Evaluation: -2.14
+Depth: 2
+Nodes: 762
+Time (s): 0.007
+Best Continuation:
+Re2 Bd5
+
+Evaluation: -2.04
+Depth: 3
+Nodes: 1745
+Time (s): 0.016
+Best Continuation:
+Re2 Bd5 Ne4
+
+Evaluation: -2.33
+Depth: 4
+Nodes: 5391
+Time (s): 0.053
+Best Continuation:
+Re2 Bd5 Be4 Qd6
+
+Evaluation: -2.30
+Depth: 5
+Nodes: 24067
+Time (s): 0.241
+Best Continuation:
+Re2 Bd5 Be4 Qd6 Bd3
+
+Evaluation: -2.63
+Depth: 6
+Nodes: 115441
+Time (s): 1.184
+Best Continuation:
+Nh3 Re8 Rxe8 Bxe8 Kg1 Bc6 Qg4
+
+Evaluation: -2.45
+Depth: 7
+Nodes: 422657
+Time (s): 4.664
+Best Continuation:
+Re2 Bd5 Be4 Bxe4 Nxe4 Re8 Qd5
+
+Evaluation: -2.58
+Depth: 8
+Nodes: 1131394
+Time (s): 12.815
+Best Continuation:
+Re2 Qd7 Kg1 Bd5 Ne4 Rd8 Nc3 Nc6
+
+Evaluation: -2.47
+Depth: 9
+Nodes: 4672196
+Time (s): 54.504
+Best Continuation:
+Nh3 Qd7 Ng5 Kg8 Bh7 Kh8 Bd3 Kg8 Bh7 Kh8 Bd3
+
+###############
+BEST MOVE IS
+Nh3
+###############
+---------------------------
+PUZZLE #4
+Evaluation: 0.36
+Depth: 2
+Nodes: 295
+Time (s): 0.003
+Best Continuation:
+Rd1 Qe4
+
+Evaluation: -1.51
+Depth: 4
+Nodes: 11807
+Time (s): 0.129
+Best Continuation:
+Rf1 Rd8 Bxe5 fxe5
+
+Evaluation: -2.26
+Depth: 6
+Nodes: 62467
+Time (s): 0.716
+Best Continuation:
+Rf1 Bxb4 Bxe5 Qe4 Kh3 Qxe5 d7
+
+Evaluation: -2.39
+Depth: 7
+Nodes: 252406
+Time (s): 3.020
+Best Continuation:
+Rb1 Qe4 Kh3 Bxb4 Bc3 Bxd6 Rd1 Rd8
+
+Evaluation: -2.49
+Depth: 8
+Nodes: 541496
+Time (s): 6.602
+Best Continuation:
+Rb1 Qe4 Kh3 Bxb4 Bc3 Qf5 Kg2 Bxd6 Rf1 Qg6
+
+Evaluation: -2.39
+Depth: 9
+Nodes: 1482678
+Time (s): 18.793
+Best Continuation:
+Rb1 Qe4 Kh3 Bxb4 Bc3 Qf5 Kg2 Qe4 Kh3 Bxd6 Rd1 Rd8
+
+Evaluation: -2.29
+Depth: 10
+Nodes: 7390169
+Time (s): 92.485
+Best Continuation:
+Rb1 Qe4 Kh3 Bxb4 d7 Rd8 Qb3 Qxb7 Qxb4 Qxb4 Rxb4
+
+###############
+BEST MOVE IS
+Rb1
+###############
+---------------------------
+PUZZLE #5
+Evaluation: 3.96
+Depth: 2
+Nodes: 81
+Time (s): 0.000
+Best Continuation:
+Bf3 Kc2 Bf6
+
+Evaluation: 4.13
+Depth: 3
+Nodes: 514
+Time (s): 0.003
+Best Continuation:
+Bf6 Ke2 Kc5
+
+Evaluation: 3.89
+Depth: 4
+Nodes: 1699
+Time (s): 0.011
+Best Continuation:
+Kc5 Kc1 Bg5 Kd1
+
+Evaluation: 3.90
+Depth: 5
+Nodes: 4068
+Time (s): 0.028
+Best Continuation:
+Kc5 Ke2 Bb5 Kf2 Bh4 Ke3 Bf6
+
+Evaluation: 3.95
+Depth: 6
+Nodes: 17674
+Time (s): 0.137
+Best Continuation:
+Bf3 Kc2 Be4 Kd1 Kc4 Ke2 Bd3 Ke3 Bf6
+
+Evaluation: 3.95
+Depth: 7
+Nodes: 39637
+Time (s): 0.326
+Best Continuation:
+Bf3 Kc2 Be4 Kd1 Kc4 Ke1 Bh4 Ke2 Bd3 Ke3 Bf6
+
+Evaluation: 3.95
+Depth: 8
+Nodes: 134986
+Time (s): 1.083
+Best Continuation:
+Bf3 Kc2 Be4 Kd1 Bf3 Kc2 Be4 Kd1 Kc4 Ke2 Bd3 Ke3 Bf6
+
+Evaluation: 3.95
+Depth: 9
+Nodes: 648850
+Time (s): 5.149
+Best Continuation:
+Bf3 Kc2 Be4 Kb3 Bf3 Kc2 Be4 Kd1 Kc4 Ke2 Bd3 Ke3 Bf6
+
+Evaluation: 3.95
+Depth: 10
+Nodes: 2639561
+Time (s): 20.814
+Best Continuation:
+Bf3 Kc2 Be4 Kb3 Bf3 Kc2 Be4 Kd1 Kc4 Ke1 Bh4 Ke2 Bd3 Ke3 Bf6
+
+Evaluation: 3.66
+Depth: 11
+Nodes: 15000130
+Time (s): 117.678
+Best Continuation:
+Kc5 Ke2 Bb5 Kf2 Bh4 Kf3 Ba4 Ke2 Bb5 Kf3 Ba4 Ke3 Bc2 Kf4
+
+###############
+BEST MOVE IS
+Kc5
+###############
+---------------------------
+PUZZLE #6
+Evaluation: 2.36
+Depth: 2
+Nodes: 111
+Time (s): 0.002
+Best Continuation:
+Rd7 Rxc6
+
+Evaluation: 1.31
+Depth: 4
+Nodes: 2608
+Time (s): 0.026
+Best Continuation:
+Rd7 a6 Ka8 axb7
+
+Evaluation: 0.94
+Depth: 5
+Nodes: 9076
+Time (s): 0.086
+Best Continuation:
+Rd7 a6 Ka8 Rf5 Rg7
+
+Evaluation: 0.70
+Depth: 6
+Nodes: 24350
+Time (s): 0.249
+Best Continuation:
+Rd7 a6 Ka8 axb7 Kxb7 Rb5 Ka6 Rb3
+
+Evaluation: 0.55
+Depth: 7
+Nodes: 95508
+Time (s): 1.092
+Best Continuation:
+Rg7 Rxe4 Rd7 Kf1 Rd1 Re1 Rxe1 Bxe1 Rd7
+
+Evaluation: 0.26
+Depth: 8
+Nodes: 301232
+Time (s): 3.493
+Best Continuation:
+Rg7 Rxe4 Rd7 Kf1 Rg7 Rf5 Rd1 Re1 Rxe1
+
+Evaluation: 1.66
+Depth: 10
+Nodes: 2319332
+Time (s): 27.188
+Best Continuation:
+e3 Rxg4 Rd1 Kxd1 exf2 Rg8 Ka7 Kd2 f1=Q Rxh7 Qe2 Kc1 Qe6
+
+Evaluation: 1.77
+Depth: 11
+Nodes: 15000070
+Time (s): 165.573
+Best Continuation:
+e3 Rxg4 Rd1 Kxd1 exf2 Rg8 Ka7 Re8 f1=Q Re1 Qc4 Rxh7 f2 Rxc7
+
+###############
+BEST MOVE IS
+e3
+###############
+---------------------------
+PUZZLE #7
+Evaluation: -3.00
+Depth: 2
+Nodes: 403
+Time (s): 0.004
+Best Continuation:
+Qe6 Qd8
+
+Evaluation: -3.54
+Depth: 4
+Nodes: 7674
+Time (s): 0.080
+Best Continuation:
+Nc4 Qf2 Qf6 Rc1
+
+Evaluation: -3.33
+Depth: 5
+Nodes: 23116
+Time (s): 0.264
+Best Continuation:
+Rc8 f5 gxf5 Bf4 Qf7
+
+Evaluation: -3.49
+Depth: 6
+Nodes: 43658
+Time (s): 0.493
+Best Continuation:
+Rc8 f5 gxf5 Qf2 Qf7 Be3
+
+Evaluation: -3.49
+Depth: 7
+Nodes: 116197
+Time (s): 1.400
+Best Continuation:
+Rc8 f5 gxf5 Qf2 Qf7 Be3 Qxa2
+
+Evaluation: -3.49
+Depth: 8
+Nodes: 361487
+Time (s): 4.360
+Best Continuation:
+Rc8 f5 gxf5 Qf2 Qf7 Be3 Qxa2 Bxb6
+
+Evaluation: -3.49
+Depth: 9
+Nodes: 1151056
+Time (s): 13.636
+Best Continuation:
+Rc8 f5 gxf5 Qf2 Qf7 Be3 Qxa2 Bxb6 axb6
+
+###############
+BEST MOVE IS
+Qe6
+###############
+---------------------------
+PUZZLE #8
+Evaluation: 1.70
+Depth: 2
+Nodes: 274
+Time (s): 0.004
+Best Continuation:
+Bxe6 Kc7 Rxd8
+
+Evaluation: 2.05
+Depth: 3
+Nodes: 641
+Time (s): 0.009
+Best Continuation:
+Rxc6 bxc6 Bxa6 Kc7 Bxc5
+
+Evaluation: 1.87
+Depth: 4
+Nodes: 1793
+Time (s): 0.026
+Best Continuation:
+Rxc6 bxc6 Bxa6 Kc7 Bxc5 Ng4
+
+Evaluation: 1.70
+Depth: 5
+Nodes: 7469
+Time (s): 0.111
+Best Continuation:
+Bxe6 Kc7 Rxd8 Rxd8 Bxc5 Bxe4
+
+Evaluation: 1.48
+Depth: 6
+Nodes: 25244
+Time (s): 0.354
+Best Continuation:
+Rxc6 bxc6 Bxa6 Kc7 Bxc5 Ng4 e5 Nxh2
+
+Evaluation: 1.85
+Depth: 7
+Nodes: 106304
+Time (s): 1.456
+Best Continuation:
+Bxe6 Kc7 Rxd8 Kxd8 Bd5 Bxd5 exd5 Ng4
+
+Evaluation: 1.79
+Depth: 8
+Nodes: 271242
+Time (s): 3.867
+Best Continuation:
+Rxc6 bxc6 Bxa6 Kd7 Bxc5 Ng4 h3 Nh6 e5 Ng8
+
+Evaluation: 1.89
+Depth: 9
+Nodes: 819079
+Time (s): 11.730
+Best Continuation:
+Rxc6 bxc6 Bxa6 Kd7 Bxc5 Ng4 h3 Nh6 e5 fxe5 fxe5
+
+Evaluation: 2.00
+Depth: 10
+Nodes: 3299309
+Time (s): 48.242
+Best Continuation:
+Rxc6 bxc6 Bxa6 Kd7 Bxc5 Ng4 h3 Nh6 Bd3 Nf7 e5 f5
+
+Evaluation: 2.15
+Depth: 11
+Nodes: 15000142
+Time (s): 195.994
+Best Continuation:
+Rxc6 bxc6 Bxa6 Kc7 Bxc5 Ng4 Bg1 Nh6 Bd3 Ng4 e5 Rh8 exf6
+
+###############
+BEST MOVE IS
+Rxc6
+###############
+---------------------------
+PUZZLE #9
+Evaluation: 0.66
+Depth: 2
+Nodes: 1121
+Time (s): 0.008
+Best Continuation:
+Rf8 Ke2
+
+Evaluation: 0.68
+Depth: 3
+Nodes: 2311
+Time (s): 0.018
+Best Continuation:
+Qxd3 Nxd3 Nc4 Bf2
+
+Evaluation: 1.12
+Depth: 4
+Nodes: 5974
+Time (s): 0.054
+Best Continuation:
+g5 Qxc4 Nxc4 Nd5 Nxe3
+
+Evaluation: 1.12
+Depth: 5
+Nodes: 12263
+Time (s): 0.125
+Best Continuation:
+g5 Qxc4 Nxc4 Nd5 Nxe3 Nxe3 cxd4
+
+Evaluation: 1.12
+Depth: 6
+Nodes: 30845
+Time (s): 0.344
+Best Continuation:
+g5 Qxc4 Nxc4 Nd5 Nxe3 Nxe3 cxd4 cxd4
+
+Evaluation: 1.40
+Depth: 7
+Nodes: 73105
+Time (s): 0.901
+Best Continuation:
+g5 Qxc4 Nxc4 Nd5 Nxe3 Nxe3 cxd4 cxd4 Rc8
+
+Evaluation: 1.18
+Depth: 8
+Nodes: 275427
+Time (s): 3.595
+Best Continuation:
+g5 Qxc4 Nxc4 Nd5 Nxe3 Nxe3 cxd4 cxd4 Rd8 Rb1
+
+Evaluation: 1.24
+Depth: 9
+Nodes: 954552
+Time (s): 12.568
+Best Continuation:
+g5 Qxc4 Nxc4 Nd5 Nxe3 Nxe3 cxd4 cxd4 Rd8 Rb1 Rf8
+
+Evaluation: 1.30
+Depth: 10
+Nodes: 6809706
+Time (s): 90.140
+Best Continuation:
+Rd8 Bf2 cxd4 Qxc4 Nxc4 Ne6 Rc8 cxd4 Kf7 Ng5 Kg8 Kg1
+
+Evaluation: 0.97
+Depth: 11
+Nodes: 15000130
+Time (s): 199.051
+Best Continuation:
+Rf8 Ke2 cxd4 cxd4 Rd8 Bf2 Qxd3 Nxd3 Nc6 Rb1 b6 Rd1
+
+###############
+BEST MOVE IS
+Rf8
+###############
+---------------------------
+PUZZLE #10
+Evaluation: -0.23
+Depth: 2
+Nodes: 521
+Time (s): 0.005
+Best Continuation:
+Bh6 Ne8
+
+Evaluation: -0.10
+Depth: 3
+Nodes: 1970
+Time (s): 0.019
+Best Continuation:
+Bh6 Bd8 Bf5
+
+Evaluation: -0.10
+Depth: 4
+Nodes: 3701
+Time (s): 0.042
+Best Continuation:
+Bh6 Bd8 Bf5 Nxd5
+
+Evaluation: 0.00
+Depth: 5
+Nodes: 15227
+Time (s): 0.182
+Best Continuation:
+Bh6 Bd8 Bf5 Qxd5 Qxd5
+
+Evaluation: -0.01
+Depth: 6
+Nodes: 49824
+Time (s): 0.640
+Best Continuation:
+Bh6 Bf8 Bg5 Be7 Bxf6 Bxf6
+
+Evaluation: -0.13
+Depth: 7
+Nodes: 180771
+Time (s): 2.432
+Best Continuation:
+Bh6 Bd8 Bf5 b4 Bg5 Nxd5 Be4
+
+Evaluation: 0.04
+Depth: 8
+Nodes: 584247
+Time (s): 8.448
+Best Continuation:
+Bh6 Bd8 Bf5 Rb8 Rg3 Qxd5 Qxd5 Nxd5
+
+Evaluation: 14.93
+Depth: 10
+Nodes: 15000233
+Time (s): 247.971
+Best Continuation:
+Rxg7 Kf8 Bh6 Nh5 Rh7 Kg8 Rg1 Bg5 Qxg5 Rg7 Bxg7 Ng3 Qxg3 Qxd5 Bxe5
+
+###############
+BEST MOVE IS
+Rxg7
+###############
+---------------------------
+PUZZLE #11
+Evaluation: 0.40
+Depth: 2
+Nodes: 924
+Time (s): 0.010
+Best Continuation:
+Qh7 Rc2
+
+Evaluation: 0.49
+Depth: 3
+Nodes: 3039
+Time (s): 0.031
+Best Continuation:
+Qh7 Bxe4 Rxe4
+
+Evaluation: -0.21
+Depth: 5
+Nodes: 11844
+Time (s): 0.171
+Best Continuation:
+Qh7 Bxe4 Rxe4 Qf2 Be6
+
+Evaluation: 0.00
+Depth: 6
+Nodes: 69423
+Time (s): 0.967
+Best Continuation:
+Qh5 Bxe4 Bxe4 Qf2 Re7 Rd1
+
+Evaluation: -0.11
+Depth: 7
+Nodes: 149786
+Time (s): 2.311
+Best Continuation:
+Qh5 Bxe4 Bxe4 Rf2 Rc7 Qf1 Re7
+
+Evaluation: 2.41
+Depth: 9
+Nodes: 1245130
+Time (s): 20.923
+Best Continuation:
+Qxh2 Kxh2 Nxg3 Qd1 Ne2 Rf4 Bxf4 exf4 g3 Kh1 Rh6 Bh3 Rxh3 Kg2 Nxc1
+
+Evaluation: 2.82
+Depth: 11
+Nodes: 15000215
+Time (s): 253.504
+Best Continuation:
+Qxh2 Kxh2 Nxg3 Qb5 Ne2 Qxb8 Rh6 Bh3 Rxb8 Rxf5 Rxh3 Kg2 Nxc1 Rg5 Kf8 Rxg4
+
+###############
+BEST MOVE IS
+Qxh2
+###############
+---------------------------
+PUZZLE #12
+Evaluation: 0.48
+Depth: 2
+Nodes: 248
+Time (s): 0.002
+Best Continuation:
+Qe7 Kf1
+
+Evaluation: 0.38
+Depth: 3
+Nodes: 901
+Time (s): 0.008
+Best Continuation:
+Qe7 Kf1 Kg6
+
+Evaluation: 0.34
+Depth: 4
+Nodes: 2117
+Time (s): 0.021
+Best Continuation:
+Qe7 Kf1 Kg6 Rc3
+
+Evaluation: 0.19
+Depth: 5
+Nodes: 5828
+Time (s): 0.062
+Best Continuation:
+Qe7 Kf1 Kg6 Qh2 Rf3
+
+Evaluation: -0.24
+Depth: 6
+Nodes: 21915
+Time (s): 0.233
+Best Continuation:
+Qe7 Qh2 Rf3 Qg1 Rxf4 Qxe3
+
+Evaluation: -0.26
+Depth: 7
+Nodes: 60237
+Time (s): 0.675
+Best Continuation:
+Qe7 Qh2 Rf3 Qg1 Rxf4 Qg3 Rf2
+
+Evaluation: 0.24
+Depth: 9
+Nodes: 1058779
+Time (s): 12.251
+Best Continuation:
+Kf8 Rxb7 Qxa2 Rb8 Kg7 Rb7 Kh6 Rd7 Qa1 Rd1 Qa5 Kf1 Qxc5
+
+Evaluation: 0.43
+Depth: 10
+Nodes: 15000060
+Time (s): 170.195
+Best Continuation:
+Kf8 Rxb7 Qxa2 Rb8 Kg7 Rb7 Kh6 Rd7 Qa5 Kf1 Qxc5 Qe4 Kh5
+
+###############
+BEST MOVE IS
+Kf8
+###############
+---------------------------
+PUZZLE #13
+Evaluation: 2.90
+Depth: 2
+Nodes: 1201
+Time (s): 0.013
+Best Continuation:
+Ne3 Qe6
+
+Evaluation: 2.75
+Depth: 3
+Nodes: 3006
+Time (s): 0.034
+Best Continuation:
+Ne3 Qe6 Qd5
+
+Evaluation: 2.75
+Depth: 4
+Nodes: 9698
+Time (s): 0.125
+Best Continuation:
+Ne3 Qe6 Qd5 Qxd5
+
+Evaluation: 2.75
+Depth: 5
+Nodes: 35668
+Time (s): 0.509
+Best Continuation:
+Ne3 Qe6 Qd5 Qxd5 Nxd5
+
+Evaluation: 2.55
+Depth: 6
+Nodes: 198560
+Time (s): 2.759
+Best Continuation:
+Qd1 Rd7 Bf4 Ne4 Rd3 Nxf2
+
+Evaluation: 2.54
+Depth: 7
+Nodes: 603501
+Time (s): 9.160
+Best Continuation:
+Qd1 Rd7 Ne3 Qe6 Qd5 Qxd5 Nxd5
+
+Evaluation: 2.69
+Depth: 8
+Nodes: 2828126
+Time (s): 43.194
+Best Continuation:
+Qd1 Qd7 Bf4 Qb5 Rb3 Qa4 Ra3 Qc6
+
+Evaluation: 2.39
+Depth: 9
+Nodes: 15000150
+Time (s): 227.611
+Best Continuation:
+Qd1 Rc6 Re2 Rd7 Ne3 Qe6 Qd5 Qxd5 Nxd5
+
+###############
+BEST MOVE IS
+Qd1
+###############
+---------------------------
+PUZZLE #14
+Evaluation: -0.03
+Depth: 2
+Nodes: 205
+Time (s): 0.003
+Best Continuation:
+Qxb5 axb5
+
+Evaluation: -0.03
+Depth: 3
+Nodes: 386
+Time (s): 0.005
+Best Continuation:
+Qxb5 axb5 Bxd8
+
+Evaluation: -0.03
+Depth: 4
+Nodes: 1031
+Time (s): 0.016
+Best Continuation:
+Qxb5 axb5 Bxd8 Rxd8
+
+Evaluation: 0.20
+Depth: 5
+Nodes: 5382
+Time (s): 0.070
+Best Continuation:
+Qxb5 axb5 Bxd8 Rxd8 Rf4
+
+Evaluation: -0.12
+Depth: 6
+Nodes: 13299
+Time (s): 0.185
+Best Continuation:
+Qxb5 axb5 Bxd8 Rxd8 Rh4 Nf5
+
+Evaluation: -0.12
+Depth: 7
+Nodes: 44834
+Time (s): 0.611
+Best Continuation:
+Qxb5 axb5 Bxd8 Rxd8 Rh4 Nf5 Rxh7
+
+Evaluation: -0.06
+Depth: 8
+Nodes: 176938
+Time (s): 2.271
+Best Continuation:
+Qxb5 axb5 Bxd8 Rxd8 Rf3 Nf5 Rf4 Kg7
+
+Evaluation: 1.23
+Depth: 10
+Nodes: 1961303
+Time (s): 28.862
+Best Continuation:
+Qxb5 axb5 Rh4 h5 Bxd8 Rxd8 Rf4 Nf5 Rf3 Kg7
+
+Evaluation: 0.00
+Depth: 12
+Nodes: 15000350
+Time (s): 239.674
+Best Continuation:
+Rxh7 Rc8
+
+###############
+BEST MOVE IS
+Rxh7
+###############
+
+
+
+
+
+---------------------------
+PUZZLE #1 (16)
+Evaluation: 10.73
+Depth: 2
+Nodes: 74
+Time (s): 0.001
+Best Continuation:
+Rxc4 Qxh7
+
+Evaluation: 9.01
+Depth: 4
+Nodes: 854
+Time (s): 0.012
+Best Continuation:
+Rxc4 Qxh7 Kf8 Qh8 Ke7 Qxg7
+
+Evaluation: 7.71
+Depth: 6
+Nodes: 9259
+Time (s): 0.122
+Best Continuation:
+Rxc4 Qxh7 Kf8 Qh8 Ke7 Qxg7 Ke8 Qf7 Kd8 Be3
+
+Evaluation: 7.34
+Depth: 7
+Nodes: 29920
+Time (s): 0.396
+Best Continuation:
+Rxc4 Qxh7 Kf8 Qh8 Ke7 Qxg7 Kd8 Qf6 Ke8 Bf4 Qd7
+
+Evaluation: 6.95
+Depth: 8
+Nodes: 107322
+Time (s): 1.347
+Best Continuation:
+Rxc4 Qxh7 Kf8 Qh8 Ke7 Qxg7 Ke8 Qf7 Kd8 Nxe6 Bxe6 Bg5 Kc8 Qxe6
+
+Evaluation: 6.03
+Depth: 10
+Nodes: 13478624
+Time (s): 194.361
+Best Continuation:
+g6 Rxc5 Qxc5 Qxc5 dxc5 Be3 c4 Bf4 c6 Nf3
+
+###############
+BEST MOVE IS
+g6
+###############
+---------------------------
+PUZZLE #2
+Evaluation: -2.23
+Depth: 2
+Nodes: 161
+Time (s): 0.002
+Best Continuation:
+Rxf4 Bxf4 Qf1
+
+Evaluation: -2.47
+Depth: 3
+Nodes: 739
+Time (s): 0.010
+Best Continuation:
+Rxf4 Bxf4 Qf1 Qc8
+
+Evaluation: -3.45
+Depth: 5
+Nodes: 11894
+Time (s): 0.165
+Best Continuation:
+Rxf4 Bxf4 Qc5 Qd6 Qxd6 Bxd6
+
+Evaluation: -3.10
+Depth: 6
+Nodes: 88384
+Time (s): 1.389
+Best Continuation:
+Kf1 Re6 Be4 Rxf6 Qxc6 Ne6 Qxc7
+
+Evaluation: -2.86
+Depth: 7
+Nodes: 177166
+Time (s): 2.899
+Best Continuation:
+Kf1 Re6 Be4 Rxf6 Qxc6 Ne6 d5 Qxc6
+
+Evaluation: -3.29
+Depth: 8
+Nodes: 460083
+Time (s): 7.470
+Best Continuation:
+Kf1 Re6 Be4 Rxf6 Qxc6 Be5 Qxc7 Bxc7 Rh2
+
+Evaluation: 0.00
+Depth: 10
+Nodes: 15000099
+Time (s): 287.146
+Best Continuation:
+Qxf4 a5
+
+###############
+BEST MOVE IS
+Qxf4
+###############
+---------------------------
+PUZZLE #3
+Evaluation: -3.75
+Depth: 2
+Nodes: 90
+Time (s): 0.001
+Best Continuation:
+d6 exd6
+
+Evaluation: -3.51
+Depth: 3
+Nodes: 149
+Time (s): 0.001
+Best Continuation:
+d6 exd6 Kf3
+
+Evaluation: -3.89
+Depth: 4
+Nodes: 340
+Time (s): 0.003
+Best Continuation:
+Kf3 Bxg3 Kxg3 d3
+
+Evaluation: -3.89
+Depth: 5
+Nodes: 694
+Time (s): 0.006
+Best Continuation:
+Kf3 d3 Kg2 Bxg3 Kxg3
+
+Evaluation: -3.96
+Depth: 6
+Nodes: 1601
+Time (s): 0.012
+Best Continuation:
+Kf3 d3 d6 exd6 Kg2 Bxg3
+
+Evaluation: -4.07
+Depth: 7
+Nodes: 4768
+Time (s): 0.036
+Best Continuation:
+Kf3 Bg1 Ke4 Kd2 d6 exd6 Kf3
+
+Evaluation: -4.54
+Depth: 8
+Nodes: 18617
+Time (s): 0.136
+Best Continuation:
+Kf3 d3 d6 exd6 a5 Bxg3 Kxg3 d2
+
+Evaluation: -4.37
+Depth: 9
+Nodes: 44618
+Time (s): 0.326
+Best Continuation:
+Kf3 Bg1 Ke4 Kd2 Ke5 Bf2 Ke6 d3 Kxe7
+
+Evaluation: -4.24
+Depth: 10
+Nodes: 144441
+Time (s): 1.062
+Best Continuation:
+d6 exd6 a5 d3 a6 Bg1 Kxd3 Bf2 a7 Bxa7
+
+Evaluation: -3.12
+Depth: 12
+Nodes: 923669
+Time (s): 6.867
+Best Continuation:
+d6 exd6 Kd3 h4 gxh4 Be5 a5 Bf6 a6 Bxh4 Kxd4 Kd2
+
+###############
+BEST MOVE IS
+d6
+###############
+---------------------------
+PUZZLE #4
+Evaluation: -1.69
+Depth: 2
+Nodes: 1318
+Time (s): 0.014
+Best Continuation:
+Kxg7 a6
+
+Evaluation: -1.69
+Depth: 3
+Nodes: 2090
+Time (s): 0.024
+Best Continuation:
+Kxg7 a6 Bxf1
+
+Evaluation: -1.44
+Depth: 4
+Nodes: 5487
+Time (s): 0.074
+Best Continuation:
+Bxf1 Rxf1 Nxg7 gxf4
+
+Evaluation: -1.31
+Depth: 5
+Nodes: 12807
+Time (s): 0.195
+Best Continuation:
+Bxf1 Rxf1 Nxg7 gxf4 Qg4
+
+Evaluation: -0.12
+Depth: 7
+Nodes: 148422
+Time (s): 2.376
+Best Continuation:
+fxg3 fxg3 Bxf1 Rxf1 Kxg7 Qe1 Qe6
+
+Evaluation: -0.43
+Depth: 8
+Nodes: 570000
+Time (s): 9.217
+Best Continuation:
+fxg3 fxg3 Bxf1 Rxf1 Kxg7 Qe1 Qe6 Rf2
+
+Evaluation: -0.66
+Depth: 9
+Nodes: 3565225
+Time (s): 56.992
+Best Continuation:
+Nxg3 fxg3 Bxf1 Rxf1 fxg3 Qxh6 Qxh2 Qxh2 gxh2 Kxh2 Kxg7
+
+###############
+BEST MOVE IS
+f3
+###############
+---------------------------
+PUZZLE #5
+Evaluation: 1.20
+Depth: 2
+Nodes: 467
+Time (s): 0.004
+Best Continuation:
+Qc1 Qc3
+
+Evaluation: 1.24
+Depth: 3
+Nodes: 1201
+Time (s): 0.012
+Best Continuation:
+Qc1 Qb3 Kh1
+
+Evaluation: 0.90
+Depth: 4
+Nodes: 3352
+Time (s): 0.036
+Best Continuation:
+Qc1 Qb3 Bd1 Qc3
+
+Evaluation: 2.41
+Depth: 6
+Nodes: 52733
+Time (s): 0.656
+Best Continuation:
+Ng5 Qg7 Qxg7 Kxg7 Rc1 Bb3 Rxc5
+
+Evaluation: 1.93
+Depth: 7
+Nodes: 136497
+Time (s): 1.797
+Best Continuation:
+Ng5 Qg7 Qxg7 Kxg7 Rc1 Bb3 Rxc5 Re8
+
+Evaluation: 2.35
+Depth: 8
+Nodes: 431215
+Time (s): 5.895
+Best Continuation:
+Ng5 Qg7 Qxg7 Kxg7 Rc1 Bb3 Rxc5 Rc8 Rc1
+
+Evaluation: 2.20
+Depth: 9
+Nodes: 1913813
+Time (s): 24.687
+Best Continuation:
+Qc1 Qxc1 Rxc1 Be4 Rxc5 Rd8 Rc1 Rb8 Rd1
+
+Evaluation: 2.10
+Depth: 10
+Nodes: 12439603
+Time (s): 166.330
+Best Continuation:
+Qc1 Qxc1 Rxc1 Be4 Rxc5 Rd8 Kg2 Re8 Kg3 Rd8
+
+###############
+BEST MOVE IS
+Qc1
+###############
+---------------------------
+PUZZLE #6
+Evaluation: 1.73
+Depth: 2
+Nodes: 676
+Time (s): 0.007
+Best Continuation:
+Qc1 Re8
+
+Evaluation: 1.91
+Depth: 3
+Nodes: 1823
+Time (s): 0.018
+Best Continuation:
+Qc1 Re8 Be5
+
+Evaluation: 1.80
+Depth: 4
+Nodes: 9911
+Time (s): 0.107
+Best Continuation:
+Qd3 Re8 Be5 Re7
+
+Evaluation: 1.63
+Depth: 5
+Nodes: 32679
+Time (s): 0.365
+Best Continuation:
+Qd3 Re8 Be5 Rd8 Qf1
+
+Evaluation: 1.52
+Depth: 6
+Nodes: 137414
+Time (s): 1.720
+Best Continuation:
+Qe2 Rd8 Be5 Re8 Qf1 Qf8
+
+Evaluation: 1.72
+Depth: 7
+Nodes: 366184
+Time (s): 4.894
+Best Continuation:
+Qe4 Re8 Qxe8 Rxe8 Rxe8 Kg7 Be5 Kg6 Bd3
+
+Evaluation: 1.71
+Depth: 8
+Nodes: 866546
+Time (s): 12.162
+Best Continuation:
+Qe4 Re8 Qxe8 Rxe8 Rxe8 Kg7 Be5 Nf6 Bd3 Qd5
+
+Evaluation: 1.70
+Depth: 9
+Nodes: 2858562
+Time (s): 41.499
+Best Continuation:
+Qe4 Re8 Qxe8 Rxe8 Rxe8 Kg7 Be5 Nf6 Bd3 Qd5 Re7 Ba6
+
+Evaluation: 1.70
+Depth: 10
+Nodes: 15000131
+Time (s): 218.059
+Best Continuation:
+Qe4 Re8 Qxe8 Rxe8 Rxe8 Kg7 Be5 Nf6 Bd3 Qd5 Re7 Ba6
+
+###############
+BEST MOVE IS
+Qe4
+###############
+---------------------------
+PUZZLE #7
+Evaluation: 1.40
+Depth: 2
+Nodes: 155
+Time (s): 0.002
+Best Continuation:
+Bxf6 Qxf6
+
+Evaluation: 1.40
+Depth: 3
+Nodes: 439
+Time (s): 0.008
+Best Continuation:
+Bxf6 Qxf6 cxd5
+
+Evaluation: 0.32
+Depth: 5
+Nodes: 9320
+Time (s): 0.136
+Best Continuation:
+Bxf6 Qxf6 cxd5 Bxc3 Nxc3 Bf5
+
+Evaluation: 0.02
+Depth: 6
+Nodes: 59896
+Time (s): 0.865
+Best Continuation:
+cxd5 Nd7 Rb1 Nb6 Bxf6 Qxf6
+
+Evaluation: -0.10
+Depth: 7
+Nodes: 306849
+Time (s): 4.345
+Best Continuation:
+cxd5 Bg4 f3 Bf5 Bxf6 Qxf6 Kf2
+
+Evaluation: -0.28
+Depth: 8
+Nodes: 1237956
+Time (s): 18.280
+Best Continuation:
+Nf4 Bg4 Qxg4 Nxg4 Bxe7 Bxc3 bxc3 Kxe7 cxd5
+
+Evaluation: 0.00
+Depth: 10
+Nodes: 15000215
+Time (s): 221.299
+Best Continuation:
+Qc1
+
+###############
+BEST MOVE IS
+Qc1
+###############
+---------------------------
+PUZZLE #8
+Evaluation: -6.28
+Depth: 2
+Nodes: 173
+Time (s): 0.002
+Best Continuation:
+Bxf8 Kxf8
+
+Evaluation: -6.36
+Depth: 3
+Nodes: 510
+Time (s): 0.006
+Best Continuation:
+Bxf8 Kxf8 Qc5
+
+Evaluation: -6.17
+Depth: 4
+Nodes: 1488
+Time (s): 0.020
+Best Continuation:
+Bxf8 Kxf8 Qh8 Ke7 Qe5
+
+Evaluation: -4.66
+Depth: 6
+Nodes: 21614
+Time (s): 0.252
+Best Continuation:
+Bh6 f6 Bxf8 Kxf8 Qxf6 Kg8 Qd8
+
+Evaluation: -5.06
+Depth: 7
+Nodes: 72392
+Time (s): 0.886
+Best Continuation:
+Bh6 f6 Bxf8 Kxf8 Qxf6 Kg8 Qd8 Kf7 Qh8
+
+Evaluation: -5.06
+Depth: 8
+Nodes: 311424
+Time (s): 3.574
+Best Continuation:
+Bh6 f6 Bxf8 Kxf8 Qxf6 Kg8 Qd8 Kf7 Qh8 Qxa2
+
+Evaluation: -3.16
+Depth: 10
+Nodes: 3713396
+Time (s): 46.901
+Best Continuation:
+Bh6 f6 Bxf8 Qxa2 Qxf6 Qa5 Kd1 Qa4 Kc1 Qa1 Kc2 Qa4 Kc3 Qc6
+
+###############
+BEST MOVE IS
+Bh6
+###############
+---------------------------
+PUZZLE #9
+Evaluation: 1.72
+Depth: 2
+Nodes: 168
+Time (s): 0.002
+Best Continuation:
+Nxb3 Kxd5 Ra5
+
+Evaluation: 1.38
+Depth: 3
+Nodes: 1107
+Time (s): 0.009
+Best Continuation:
+Nxb3 Ke5 Rh8 Qxd5
+
+Evaluation: 1.75
+Depth: 5
+Nodes: 11128
+Time (s): 0.096
+Best Continuation:
+Rh8 d6 Nf3 Ke4 Re8 Kxd5 Re3
+
+Evaluation: 2.07
+Depth: 6
+Nodes: 33029
+Time (s): 0.287
+Best Continuation:
+Rh8 Qxd5 Rxh7 Qe5 Kd1 Qxh2 Rxd7
+
+Evaluation: 1.86
+Depth: 7
+Nodes: 98993
+Time (s): 0.895
+Best Continuation:
+Rh8 Kxd5 Rxh7 Qxh2 Rxd7 Kc6 Nf3 Qf4
+
+Evaluation: 2.55
+Depth: 9
+Nodes: 1823001
+Time (s): 17.172
+Best Continuation:
+Ra7 Kxd5 Rxd7 Kc6 Rxh7 Qxh2 Nf3 Qg2 Nd4 Kb6 Nxb3
+
+Evaluation: 2.33
+Depth: 10
+Nodes: 15000111
+Time (s): 143.125
+Best Continuation:
+Ra7 Kc5 Rxd7 Qxh2 Nxb3 Kb4 Rb7 Kc4 Nd2 Kxd5 Nf3 Qd6 Rxh7
+
+###############
+BEST MOVE IS
+Ra7
+###############
+---------------------------
+PUZZLE #10
+Evaluation: 1.22
+Depth: 2
+Nodes: 108
+Time (s): 0.001
+Best Continuation:
+Bb5 Be6
+
+Evaluation: 1.32
+Depth: 3
+Nodes: 419
+Time (s): 0.003
+Best Continuation:
+Bb5 Nh5 Ng4
+
+Evaluation: 1.20
+Depth: 4
+Nodes: 1397
+Time (s): 0.011
+Best Continuation:
+g2 Nxg2 Bxg2 Kf4
+
+Evaluation: 1.14
+Depth: 5
+Nodes: 3463
+Time (s): 0.031
+Best Continuation:
+g2 Kf2 Ng4 Kg1 Ne3 Kf2
+
+Evaluation: 1.35
+Depth: 6
+Nodes: 12877
+Time (s): 0.117
+Best Continuation:
+Kc5 Be6 g2 Nxg2 Bxg2 Kf4
+
+Evaluation: 1.34
+Depth: 7
+Nodes: 39258
+Time (s): 0.395
+Best Continuation:
+g2 Kf2 Ng4 Kg1 Ne3 Kf2 Ng4 Kg1 Ne3
+
+Evaluation: 1.20
+Depth: 8
+Nodes: 152258
+Time (s): 1.482
+Best Continuation:
+Kc5 Be6 Kd6 Bd5 g2 Nxg2 Bxg2 Kf4
+
+Evaluation: 1.25
+Depth: 9
+Nodes: 334971
+Time (s): 3.248
+Best Continuation:
+Kc5 Be6 g2 Kf2 Ng4 Kg1 Ne3 Nxg2 Bxg2 Kf2
+
+Evaluation: 1.35
+Depth: 10
+Nodes: 2470537
+Time (s): 24.545
+Best Continuation:
+Kc5 Be6 Kd6 Bd5 Kc5 Be6 g2 Nxg2 Bxg2 Kf4
+
+Evaluation: 1.14
+Depth: 11
+Nodes: 15000097
+Time (s): 139.120
+Best Continuation:
+g2 Kf2 Ng4 Kg1 Ne3 Kf2 Ng4 Kg1 Ne3 Kf2 Ng4 Kg1 Ne3 Kf2
+
+###############
+BEST MOVE IS
+g2
+###############
+---------------------------
+PUZZLE #11
+Evaluation: -0.51
+Depth: 2
+Nodes: 354
+Time (s): 0.004
+Best Continuation:
+Re1 Rc6
+
+Evaluation: -0.05
+Depth: 3
+Nodes: 745
+Time (s): 0.009
+Best Continuation:
+Re1 Ne4 Qd1
+
+Evaluation: -0.50
+Depth: 4
+Nodes: 3695
+Time (s): 0.046
+Best Continuation:
+Qe1 Re8 f5 gxf5
+
+Evaluation: -0.41
+Depth: 5
+Nodes: 14927
+Time (s): 0.192
+Best Continuation:
+Re1 Rc6 f5 gxf5 Bxf5
+
+Evaluation: -0.35
+Depth: 6
+Nodes: 54449
+Time (s): 0.733
+Best Continuation:
+Qe1 Ne4 Re2 Qf7 Rf3 Bc6
+
+Evaluation: -0.27
+Depth: 7
+Nodes: 111167
+Time (s): 1.652
+Best Continuation:
+Qe1 Ne4 Re2 Qf7 Rf3 Bc6 Kh1
+
+Evaluation: -0.31
+Depth: 8
+Nodes: 404252
+Time (s): 5.987
+Best Continuation:
+Qe1 Ne4 Re2 Qf7 Rf3 Re8 Bb5 Re7
+
+Evaluation: -0.30
+Depth: 9
+Nodes: 1617148
+Time (s): 24.018
+Best Continuation:
+Qe1 Ne4 Re2 Bc6 Kh1 Kh8 Rf3 Qf6 Rc2
+
+Evaluation: -0.39
+Depth: 10
+Nodes: 14060994
+Time (s): 189.968
+Best Continuation:
+Qe1 Ne4 Re2 Qe8 Kh1 Kf7 Rf3 Bc6 Re3 Kf6
+
+Evaluation: 0.00
+Depth: 11
+Nodes: 15000194
+Time (s): 202.289
+Best Continuation:
+Rf3 Kh8 Qe1
+
+###############
+BEST MOVE IS
+Rf3
+###############
+---------------------------
+PUZZLE #12
+Evaluation: -1.86
+Depth: 2
+Nodes: 179
+Time (s): 0.002
+Best Continuation:
+Qxe4 Be6
+
+Evaluation: -1.80
+Depth: 3
+Nodes: 549
+Time (s): 0.005
+Best Continuation:
+Qxe4 Be2 Qd5
+
+Evaluation: -2.07
+Depth: 4
+Nodes: 1440
+Time (s): 0.014
+Best Continuation:
+Qxe4 Be2 Qf5 Bc4
+
+Evaluation: -1.66
+Depth: 5
+Nodes: 4141
+Time (s): 0.042
+Best Continuation:
+Qxe4 Be2 Qf5 Bc4 Kg3
+
+Evaluation: -1.63
+Depth: 6
+Nodes: 11230
+Time (s): 0.114
+Best Continuation:
+Qxe4 Be2 Qh4 Rxd6 exd6 Rxd6
+
+Evaluation: -1.65
+Depth: 7
+Nodes: 35750
+Time (s): 0.362
+Best Continuation:
+Qxe4 Be2 Qf5 Bc4 Kg3 Bd5 Qf2
+
+Evaluation: -1.53
+Depth: 8
+Nodes: 100903
+Time (s): 1.057
+Best Continuation:
+Qxe4 Be2 Qf5 Bc4 Kg3 Bd5 Qd3 Bc6
+
+Evaluation: -1.51
+Depth: 9
+Nodes: 282615
+Time (s): 3.139
+Best Continuation:
+Qxe4 Be2 Qf5 Bc4 Kg3 Bd5 Qd3 Bc6 Qf1
+
+Evaluation: -1.38
+Depth: 10
+Nodes: 991392
+Time (s): 11.138
+Best Continuation:
+Qxe4 Be2 Qf5 Bc4 Qf3 Kh8 Kg2 Rxd6 exd6 Rxd6
+
+Evaluation: -1.37
+Depth: 11
+Nodes: 7047033
+Time (s): 74.939
+Best Continuation:
+Qxe4 Be2 Qf5 Kh8 Kg3 Bc4 Qf3 Kg8 Qe4 Be2 Qh1
+
+###############
+BEST MOVE IS
+Kg3
+###############
+---------------------------
+PUZZLE #13
+Evaluation: 1.02
+Depth: 2
+Nodes: 2321
+Time (s): 0.024
+Best Continuation:
+Ne4 Ne8
+
+Evaluation: 1.15
+Depth: 3
+Nodes: 4233
+Time (s): 0.045
+Best Continuation:
+Ne4 Qe7 Bxf6
+
+Evaluation: 0.79
+Depth: 4
+Nodes: 6910
+Time (s): 0.083
+Best Continuation:
+Ne4 Nxe4 Bxe4 Bb7
+
+Evaluation: 1.42
+Depth: 6
+Nodes: 65241
+Time (s): 0.805
+Best Continuation:
+Ne4 Nxe4 Bxe4 Bb7 Qc2 Rc8
+
+Evaluation: 1.46
+Depth: 7
+Nodes: 340651
+Time (s): 4.571
+Best Continuation:
+Ne4 Be7 Nxf6 Bxf6 Bxf6 gxf6 Qc2 h6
+
+Evaluation: 1.72
+Depth: 8
+Nodes: 1253769
+Time (s): 16.881
+Best Continuation:
+Ne4 Qe7 Bxf6 gxf6 Nxd6 Rxd6 Qc2 h6
+
+Evaluation: 1.56
+Depth: 9
+Nodes: 2799203
+Time (s): 41.946
+Best Continuation:
+Ne4 Nxe4 Bxe4 Bb7 Rd1 Re8 Qc2 Rc8 Bxh7
+
+Evaluation: 1.52
+Depth: 10
+Nodes: 9042799
+Time (s): 142.757
+Best Continuation:
+Ne4 Nxe4 Bxe4 Qd7 Re1 Nxb4 Bxa8 Rxa8 axb4 Bxb4
+
+###############
+BEST MOVE IS
+Ne4
+###############
+---------------------------
+PUZZLE #14
+Evaluation: 2.68
+Depth: 2
+Nodes: 309
+Time (s): 0.004
+Best Continuation:
+Nf3 Nxa2
+
+Evaluation: 2.00
+Depth: 4
+Nodes: 10376
+Time (s): 0.120
+Best Continuation:
+Qd8 Qc2 Ke3 Nf5 Kf3 Qxb2
+
+Evaluation: 2.08
+Depth: 5
+Nodes: 19869
+Time (s): 0.254
+Best Continuation:
+Qd8 Qc2 Ke3 Nf5 Kf3 Qxb2 Rd2
+
+Evaluation: 2.25
+Depth: 6
+Nodes: 66980
+Time (s): 0.869
+Best Continuation:
+Qd8 Qc2 Ke1 Qxb2 Qc7 Kg6 Qg3 Kf7 Rd2
+
+Evaluation: 2.87
+Depth: 8
+Nodes: 961685
+Time (s): 13.361
+Best Continuation:
+Qd8 Nf5 Nh3 Ne7 Nf4 Qc2 Ke3 Nf5 Kf3 Qxb2
+
+Evaluation: 2.86
+Depth: 9
+Nodes: 3200177
+Time (s): 44.042
+Best Continuation:
+Qd8 Nf5 Nh3 Ne7 Qc7 Qc2 Ke3 Qxb2 Bh5 Kf8 Rd2
+
+Evaluation: 2.93
+Depth: 10
+Nodes: 15000179
+Time (s): 198.305
+Best Continuation:
+Qd8 Nf5 Nf3 Ne7 Bd3 Qxg2 Ke2 Nxa2 Rg1 Qh3
+
+###############
+BEST MOVE IS
+Qd8
+###############
+---------------------------
+PUZZLE #15
+Evaluation: 0.50
+Depth: 2
+Nodes: 325
+Time (s): 0.002
+Best Continuation:
+Rg8 Kb7 Rg1
+
+Evaluation: 0.53
+Depth: 3
+Nodes: 1031
+Time (s): 0.007
+Best Continuation:
+Nd2 Bc5 Rg8
+
+Evaluation: 0.39
+Depth: 4
+Nodes: 3858
+Time (s): 0.031
+Best Continuation:
+Rg8 Kb7 Rg1 Rh6 Nd2
+
+Evaluation: 0.37
+Depth: 5
+Nodes: 11966
+Time (s): 0.103
+Best Continuation:
+Rg1 Kb7 Rg3 Rh6 Nd2
+
+Evaluation: 0.25
+Depth: 6
+Nodes: 47323
+Time (s): 0.422
+Best Continuation:
+Rg1 Kb7 Ke3 Rh6 Nd2 Rf6
+
+Evaluation: 0.27
+Depth: 7
+Nodes: 137137
+Time (s): 1.324
+Best Continuation:
+d4 Rh6 Rg5 Re6 Rg7 Bxa3 bxa3
+
+Evaluation: 0.31
+Depth: 8
+Nodes: 442533
+Time (s): 4.411
+Best Continuation:
+Rg5 Kb7 d4 exd4 Nxd4 Bxa3 bxa3 Rh6
+
+Evaluation: 0.20
+Depth: 9
+Nodes: 1064022
+Time (s): 10.754
+Best Continuation:
+Rg5 Rh1 Nd2 Kb7 Rg3 Rh6 Nb3 Rf6 Nd2
+
+Evaluation: 0.50
+Depth: 10
+Nodes: 6623159
+Time (s): 64.286
+Best Continuation:
+Rg8 Kb7 Na5 Kb6 b4 Ka7 Nxc6 Kb6 Na5 Ka7 Nb3 Kb6 Rg1
