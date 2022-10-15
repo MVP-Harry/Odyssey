@@ -5,11 +5,12 @@
 using namespace libchess;
 using namespace std::chrono;
 
-Move Position::find_best_move(int depth) {
+Move Position::find_best_move(int depth, int tl) {
     nodes = 0;
+    time_limit = tl;
     int score = 0;
 
-    milliseconds starttime = duration_cast<milliseconds> (
+    starttime = duration_cast<milliseconds> (
         system_clock::now().time_since_epoch()
     );
     

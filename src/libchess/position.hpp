@@ -2,6 +2,7 @@
 #define LIBCHESS_POSITION_HPP
 
 #include <ostream>
+#include <chrono>
 #include <stdexcept>
 #include <string>
 #include <vector>
@@ -11,6 +12,7 @@
 #include "side.hpp"
 #include "zobrist.hpp"
 #include "useful_constants.hpp"
+using namespace std::chrono;
 
 namespace libchess {
 
@@ -363,8 +365,9 @@ class Position {
     int pv_length[64];
     Move pv_table[64][64];
     int his_moves[12][64];
-    int follow_pv, score_pv, ply;
+    int follow_pv, score_pv, ply, time_limit;
     long long nodes;
+    milliseconds starttime;
 
    // score moves, important in deciding what move to consider first in alpha-beta search
     int score_move(Move move);
@@ -393,7 +396,7 @@ class Position {
     int negamax(int alpha, int beta, int depth);
 
     // FINDING THE BEST MOVE!
-    Move find_best_move(int depth);
+    Move find_best_move(int depth, int tl);
 
    private:
     void set(const Square sq, const Side s, const Piece p) noexcept {

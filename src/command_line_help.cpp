@@ -44,10 +44,6 @@ void command_line_help() {
     std::cout << "Calculating..." << std::endl;
     std::cout << "-----------------------------------------------------" << std::endl;
 
-    pos.find_best_move(depth);
-
-}
-
-void command_line_anaylze() {
+    pos.find_best_move(depth, 300);
 
 }

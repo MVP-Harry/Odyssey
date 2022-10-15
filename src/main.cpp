@@ -1,10 +1,6 @@
-/* 
- * The below program initializes a position using fen
- * and calculate the perft value of the current position
-*/
-
-#include <chrono>
 #include <iostream>
+#include <sstream>
+#include <fstream>
 #include <libchess/useful_masks.hpp>
 #include <libchess/position.hpp>
 #include <libchess/movegen.hpp>
@@ -14,64 +10,29 @@ using namespace libchess;
 
 int main(int argc, char **argv) {
     
-    /*
-    Intializing useful masks
-    */ 
+    // initialzing masks
     init_masks();
 
-    /*
-    Display help
-    */
+    // command line
+    // command_line_help();
 
-    command_line_help();
+    // testing
+    std::fstream input("test_elo.txt");
 
-    /*
-    argc is the number of arguments that the main function takes
-    argc is automatically counted
-    argv is a string array that contains all the command-line arguments
-    */
+    for (int i = 0; i < 30; i++) {
+        std::string user_input;
+        std::getline(input, user_input);
 
-    /* 
-    Initializing a position 
-    */
+        std::stringstream ss(user_input);
+        std::string temp, fen;
+        bool first_time = true;
+        while (ss >> temp) {
+            if (first_time) first_time = false;
+            else fen += " ";
+            fen += temp;
+        }
 
-    // int depth = 6;
-    // std::string fen;
-
-    // if (argc > 1) {
-    //     depth = std::stoi(std::string(argv[1]));
-    //     depth = std::max(depth, 1);
-    // }
-
-    // if (argc > 2) {
-    //     for (int i = 2; i < argc; i++) {
-    //         if (fen.empty()) {
-    //             fen = std::string(argv[i]);
-    //         } else {
-    //             fen += " " + std::string(argv[i]);
-    //         }
-    //     }
-    // } else {
-    //     fen = "startpos";
-    // }
-
-    // auto pos = libchess::Position(tricky_position);
-
-    // std::cout << pos << std::endl;
-    // std::cout << std::endl;
-
-    // Move move = pos.find_best_move(8);
-
-    // move.print_move();
-
-    // auto pos = libchess::Position(tricky_position);
-    // Move move = pos.find_best_move(8);
-    // std::cout << "#################\n";
-    // std::cout << "BEST MOVE IS\n";
-    // std::cout << move.print_move() << std::endl;
-    // std::cout << "#################\n";
-
-    // pos.negamax(-infinity, infinity, 2);
-
+        std::cout << fen << std::endl;
+    }
     return 0;
 }
