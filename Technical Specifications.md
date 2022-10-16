@@ -31,14 +31,14 @@ Currently, Odyssey is estimated to have a ELO of 1870 (in comparison, my officia
 ## Move Generation
 * Given a position, move generation is the process of generating all legal moves. This step has to be extremely robust and make sure there are no missed/extra moves being generated
 * Just like board representation, binary operations are taken advantage of to make move generation faster. Odyssey uses a technique called [magic bitboards](https://www.chessprogramming.org/Magic_Bitboards) to further speed up the process, especially when it's generating moves for bishops, rooks, or queens (which can be blocked by the placement of other pieces). Essentially, magic bitboards trade some space with a much better time performance
-* There are a lot of border cases need to be taken care of as well. There are many "exceptions" in the rule of chess: en passsant (for pawns), castling (for rooks and kings), stalemate etc. Odyssey is tested using "perft", 
+* There are a lot of border cases need to be taken care of as well. There are many "exceptions" in the rule of chess: en passsant (for pawns), castling (for rooks and kings), stalemate etc. Odyssey is tested using "[perft](https://www.chessprogramming.org/Perft)", in order to ensure performance and robustness
 * Odyssey uses [libchess](https://github.com/kz04px/libchess), an open source library to generate moves. See credits section for more information
 
 ## Credits
 * [libchess](https://github.com/kz04px/libchess)
     + libchess is an open source "C++17 library that [provides] legal move generation"
-    + Originally, I planned to write move generation myself too (see [Ophelia](https://github.com/MVP-Harry/Ophelia), the predecessor of Odyssey). Well, that did not end up well... When I was done with writing code and started testing, I couldn't for the life of me figure out why Ophelia couldn't generate all moves (unit-testing and debugging are indeed two areas that I need to improve on!). Eventually, I realized that there's no point for reinventing the wheels, and I should spend more time on the evaluation function and searching algorithms.
-    + When I landed on libchess, I was very happy to see that its code is clean and comprehensible, which allows me to make changes and adjustments easily. Its fast and robust performance provides a solid starting point for Odyssey.
+    + Originally, I planned to write move generation myself too (see [Ophelia](https://github.com/MVP-Harry/Ophelia), the predecessor of Odyssey). Well, that did not end up well... When I was done with writing code and started testing, I couldn't for the life of me figure out why Ophelia couldn't generate all moves (unit-testing and debugging are indeed two areas that I need to improve on!). Eventually, I realized that there's no point for reinventing the wheels, and I should spend more time on the evaluation function and searching algorithms
+    + When I landed on libchess, I was very happy to see that its code is clean and comprehensible, which allows me to make changes and adjustments easily. Its fast and robust performance provides a solid starting point for Odyssey
 * [BBC (Bit Board Chess)](https://github.com/maksimKorzh/bbc)
     + BBC is an open source chess engine written by Code Monkey King
     + BBC was a particularly helpful reference when I was researching effective searching/pruning algorithm
