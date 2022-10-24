@@ -17,7 +17,7 @@ header-includes:
 ## Overview
 Chess engines can be traced back to the 90s, when IBM's Deep Blue defeated Garry Kasparov, the reigning world champion; with the advancements of modern technology, more chess engines like Stockfish and Alphazero are developed using neural networks, and they can easily defeat any human player.
 
-Naturally, as both a chess player and computer science enthusiast, I was curious of the underlying mechanisms behind those intelligent machines, and decided to create an engine of my own - Odyssey. This was an ambitious goal, given that most of my previous computer science background was focused on competitive programming rather than project development. But I was driven by passion and curiosity, and through relentlessly researching, coming up with new ideas, coding, and debugging, I'm super happy to announce that my chess engine, Odyssey, is estimated to be stronger than myself at chess!
+Naturally, as both a chess player and computer science enthusiast, I was curious about the underlying mechanisms behind those intelligent machines, and decided to create an engine of my own - Odyssey. This was an ambitious goal, given that most of my previous computer science background was focused on competitive programming rather than project development. But I was driven by passion and curiosity, and through relentlessly researching, coming up with new ideas, coding, and debugging, I'm super happy to announce that my chess engine, Odyssey, is estimated to be stronger than myself at chess!
 
 Currently, Odyssey is estimated to have a ELO of 1870 (in comparison, my official rating is around 1400). It has undoubtedly fulfilled my original goal, but I've grown more ambitious, so I will address some potential improvements and plan moving forward in the document. Odyssey is mainly composed of four essential parts: board representation, move generation, evaluation function, and searching/pruning algorithms. The rest of the document will focus on those four parts, and a detailed credits section is at the end.
 
@@ -25,13 +25,13 @@ Currently, Odyssey is estimated to have a ELO of 1870 (in comparison, my officia
 * Every chess engine needs a board representation to maintain chess positions for move generation, evaluation, and searching
 * The most obvious way to maintain such a representation is to use an 8x8 2-D array. While this approach is intuitive, it's inefficient in generating moves later on
 * Instead, Odyssey uses **bitboard representation**. Since a chess board has 64 squares, each square can be mapped to a single bit in a `long long` type in C++. For each piece in chess (pawn, knight, bishop, rook, queen, and king), Odyssey maintains such a `Bitboard` type, and for every square that the piece is on, the corresponding bit would be `1`, and otherwise it'd be `0`. (For example, if one player's queen is on the square A4 and no other square, the queen bitboard would be $2^{(4 - 1)} = 8$)
-* The benefit of bitboard representation is that we can take advantage of fast binary operations. Consider the following case: we want to find out what squares on the board are occupied. With bitboard representation, we don't have to go through each of the 64 squares; instead, we can simply call `occpuied = pawn | knight | bishop | rook | queen | king`, where `|` is the `or` operation in C++
+* The benefit of bitboard representation is that we can take advantage of fast binary operations. Consider the following case: we want to find out what squares on the board are occupied. With bitboard representation, we don't have to go through each of the 64 squares; instead, we can simply call `occupied = pawn | knight | bishop | rook | queen | king`, where `|` is the `or` operation in C++
 * Odyssey can also initialize a position using FEN (Forsyth–Edwards Notation, the standard way of expressing a position)
 
 ## Move Generation
 * Given a position, move generation is the process of generating all legal moves. This step has to be extremely robust and make sure there are no missed/extra moves being generated
 * Just like board representation, binary operations are taken advantage of to make move generation faster. Odyssey uses a technique called [**magic bitboards**](https://www.chessprogramming.org/Magic_Bitboards) to further speed up the process, especially when it's generating moves for bishops, rooks, or queens (which can be blocked by the placements of other pieces). Essentially, magic bitboards trade some space for a much better time performance
-* There are a lot of border cases need to be taken care of as well. There are many "exceptions" in the rule of chess: en passsant (for pawns), castling (for rooks and kings), stalemate etc. Odyssey is tested using "[perft](https://www.chessprogramming.org/Perft)", in order to ensure performance and robustness
+* There are a lot of border cases that need to be taken care of as well. There are many "exceptions" in the rules of chess: en passant (for pawns), castling (for rooks and kings), stalemate etc. Odyssey is tested using "[perft](https://www.chessprogramming.org/Perft)", in order to ensure performance and robustness
 * Odyssey uses [libchess](https://github.com/kz04px/libchess), an open source library to generate moves. See credits section for more information
 
 ## Evaluation Function
@@ -79,7 +79,7 @@ Currently, Odyssey is estimated to have a ELO of 1870 (in comparison, my officia
 * Odyssey uses the [negamax](https://www.chessprogramming.org/Negamax) framework to implement alpha-beta
 * A quiescence search is implemented to stabilize alpha-beta and avoid any "horizon effect" (the case when the engine stops one move early and falsely evaluates a position)
 * Move ordering. In the most ideal case, alpha-beta will pick the best move out of all legal moves, which will significantly reduce the number of nodes it searches. While that's unlikely, there are enhancements that maintain a relatively good move ordering
-    * Principle variation. The principal variation (PV) is a sequence of moves that engine consider best so far, and it's a good guess of the best move in a position. Therefore, PV is always the first to be searched. Odyssey uses a triangular PV table to implement the enhancement
+    * Principle variation. The principal variation (PV) is a sequence of moves that the engine considers best so far, and it's a good guess of the best move in a position. Therefore, PV is always the first to be searched. Odyssey uses a triangular PV table to implement the enhancement
     * Killer moves. A killer move is a quiet move that causes a beta-cutoff, and should be searched as soon as possible. It's just behind the PV move in move ordering
 
 ```cpp

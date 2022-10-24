@@ -14,7 +14,7 @@ int main(int argc, char **argv) {
     init_masks();
 
     // command line
-    // command_line_help();
+    command_line_help();
 
     // testing
     return 0;
